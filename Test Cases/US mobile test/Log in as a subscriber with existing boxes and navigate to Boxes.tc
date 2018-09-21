@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>All boxes show in the gallery view with correct labels.  &quot;Review Samples&quot; should appear next to latest box if there are any samples left to review.</description>
+   <name>Log in as a subscriber with existing boxes and navigate to Boxes</name>
+   <tag></tag>
+   <comment>Note: Purchased boxes never populate in this page.  The following is the most that can be verified.</comment>
+   <testCaseGuid>6c240636-cb7f-4b1b-98f0-9fe2db9ebcc4</testCaseGuid>
+</TestCaseEntity>

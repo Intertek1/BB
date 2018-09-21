@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout complete.  Go to My Account, you should see the latest order in Order History.</description>
+   <name>Add a configurable item and place an order</name>
+   <tag></tag>
+   <comment>The product displays in different places on the page depending on if the test case is run solo or as part of a suite, so the scrolling below is necessary to find it</comment>
+   <testCaseGuid>b7f5af64-7162-4519-8391-031de180eae8</testCaseGuid>
+</TestCaseEntity>

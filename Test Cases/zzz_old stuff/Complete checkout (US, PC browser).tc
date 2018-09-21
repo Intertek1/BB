@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Complete checkout (US, PC browser)</name>
+   <tag></tag>
+   <comment>Test - Check for correct sales tax calculation and currency symbol</comment>
+   <testCaseGuid>d90dfbab-7663-4f2f-8f97-1084e85d8c21</testCaseGuid>
+</TestCaseEntity>

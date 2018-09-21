@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Purchase subscription and create profile (US, PC)</name>
+   <tag></tag>
+   <comment>Test - Check for correct sales tax calculation and currency symbol
+Issue - Not sure how to enter the date of birth at this point, so the script just selects the Next button</comment>
+   <testCaseGuid>c9f20b2e-7acb-4ee8-b96c-8bb9ce82f8ee</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Refine_image__absolute___2</name>
+   <tag></tag>
+   <elementGuidId>59a8c593-142d-4605-afa2-81b017771180</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>image__absolute___2DQnl utilities__block___2NUBz utilities__absolute___2Nj_S utilities__pinCenter___1zkCi image__centered___1jcGx</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.staging.birchbox.co.uk/shop/media/catalog/product/cache/1/small_image/460x521/85e4522595efc69f496374d01ef2bf13/h/b/hb-aroma-55ml-revive-morning-box.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;UHJvZHVjdFdhbGxjYXRlZ29yaWVzODM5NA==&quot;)/div[1]/div[@class=&quot;gridNarrow__items___2C3Td utilities__flexContainer___2sCJV&quot;]/div[@class=&quot;gridNarrow__itemsCol___2h9d- layout__adaptiveGutterPadding___1evEM layout__adaptiveGutterPaddingRight___2Ourm layout__adaptiveGutterPaddingLeft___1KTBe layout__flexBasis50___1kUYj&quot;]/div[@class=&quot;gridNarrow__item___2yzgS layout__adaptiveGutterPaddingTop___3ragO layout__adaptiveGutterPaddingBottom___2c1nd&quot;]/div[@class=&quot;vertical__container___1RhfZ utilities__fullWidth___3kUCi productThumb__thumbContainer___1DSsr&quot;]/div[2]/div[@class=&quot;vertical__thumb___2Pqn1 utilities__relative___1GEg3&quot;]/a[@class=&quot;StyledLink-khUpca ddtewq&quot;]/div[@class=&quot;box__square___tg9oK box__box___3iw65 utilities__fullWidth___3kUCi utilities__overflowContainer___TqQZY utilities__relative___1GEg3 utilities__overflowHidden___2947E&quot;]/img[@class=&quot;image__absolute___2DQnl utilities__block___2NUBz utilities__absolute___2Nj_S utilities__pinCenter___1zkCi image__centered___1jcGx&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='UHJvZHVjdFdhbGxjYXRlZ29yaWVzODM5NA==']/div/div/div/div/div/div[2]/div/a/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refine'])[1]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(10)'])[1]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aromatherapy Associates Revive Morning Bath &amp; Shower Oil'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£45.00'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <value>//img[contains(@src,'https://www.staging.birchbox.co.uk/shop/media/catalog/product/cache/1/small_image/460x521/85e4522595efc69f496374d01ef2bf13/h/b/hb-aroma-55ml-revive-morning-box.jpg')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//img</value>
+   </webElementXpaths>
+</WebElementEntity>

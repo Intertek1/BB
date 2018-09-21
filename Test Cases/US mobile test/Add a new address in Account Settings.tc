@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add a new address in Account Settings</name>
+   <tag></tag>
+   <comment>Test - Add a new address in Account Settings</comment>
+   <testCaseGuid>12633400-ba03-4a18-95d3-eaf4e2aa2fca</testCaseGuid>
+</TestCaseEntity>

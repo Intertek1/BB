@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>92fc6d7c-fdf9-4102-b611-a7c3542e84cc</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M19.1,31.3l-1.4-1.4l16.5-16.1c1.3-1.5,2-2.8,2-4.4c0-4.2-3-7.3-7-7.3c-4,0-8.2,4.1-9.4,5.3l-0.7,0.7l-1.4-1.4L18.4,6c1.7-1.8,6.2-6,10.9-6c5,0,9,4.1,9,9.3c0,2.2-1,3.9-2.5,5.7l-0.1,0.1L19.1,31.3z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;app__childrenContainerNarrow___2Gjv4 app__childrenContainerWithTrimNarrow___2aYoL&quot;]/div[1]/div[@class=&quot;productView__productCardWrapperNarrow___1PEtG productView__nonEvoSku___2_TDm&quot;]/div[1]/div[1]/div[@class=&quot;newProductCard__secondaryBlockNarrow___2Fz8I newProductCard__adaptiveGutterNarrow___3HUX- layout__adaptiveGutterPaddingAll___12ady layout__adaptiveGutterPadding___1evEM layout__adaptiveGutterPaddingRight___2Ourm layout__adaptiveGutterPaddingLeft___1KTBe layout__adaptiveGutterPaddingVertical___3o01V layout__adaptiveGutterPaddingTop___3ragO layout__adaptiveGutterPaddingBottom___2c1nd&quot;]/div[2]/div[@class=&quot;newProductCard__primaryCtasNarrow___JK4sg utilities__block___2NUBz newProductCard__hasStickyCtas___22_45&quot;]/div[@class=&quot;utilities__inlineBlock___3AjW8 addToList__button___FdaJ4 utilities__flexCenterBoth___bT52v utilities__flexContainer___2sCJV newProductCard__favoriteNarrow___yvvOH utilities__pointer___1ctfY&quot;]/div[1]/svg[@class=&quot;icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9&quot;]/path[2]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_id(root)divclassapp__conta</name>
+   <tag></tag>
+   <elementGuidId>72889605-9ff9-4c2a-a7b3-9bdbce36b9a3</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>katalon-rec_elementInfoDiv</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn&quot;]/div[@class=&quot;navBar__container___2OWev utilities__fixed___1nM3D utilities__pinTopLeft___2dFnK utilities__fullWidth___3kUCi utilities__flexColReverse___1RTGl utilities__flexContainer___2sCJV theme__navBackground___qFmEe&quot;]/div[@class=&quot;cookieNotice__wrapper___V26Iu GutterDiv-uPqzs cRBQBu&quot;]/div[@class=&quot;cookieNotice__content___3_jon typography__copy14___3VCcc utilities__relative___1GEg3&quot;]/div[@class=&quot;cookieNotice__text___rDAS8&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;katalon-rec_elementInfoDiv&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

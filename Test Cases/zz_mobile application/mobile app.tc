@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>mobile app</name>
+   <tag></tag>
+   <comment>swipe exactly 7 times right to left</comment>
+   <testCaseGuid>be2dc940-ba7e-4389-8306-d991227b1659</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Purchase regular and configurable items (ES, mobile)</name>
+   <tag></tag>
+   <comment>Load multiple pages of content which should ensure that the product the script is looking for is listed</comment>
+   <testCaseGuid>1a85d07f-79e4-45a2-952f-5e4258c11862</testCaseGuid>
+</TestCaseEntity>

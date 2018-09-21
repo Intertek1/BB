@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The invite is displayed on the social media account</description>
+   <name>Share a link on Facebook or Twitter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9715827-dabc-4bf7-b2b9-1aee57d61c7a</testCaseGuid>
+</TestCaseEntity>

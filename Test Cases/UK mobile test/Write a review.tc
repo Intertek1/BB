@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Write a review</name>
+   <tag></tag>
+   <comment>The &quot;Write a Review&quot; button will not appear on the page until that exact part of the page is scrolled to, therefore the only way to get it to appear on the screen is to bounce around the page using several Scroll To Position instructions</comment>
+   <testCaseGuid>593f3531-6e36-40f9-81cb-6338cb1aecb8</testCaseGuid>
+</TestCaseEntity>

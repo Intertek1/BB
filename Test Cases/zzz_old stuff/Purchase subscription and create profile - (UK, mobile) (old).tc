@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Purchase subscription and create profile - (UK, mobile) (old)</name>
+   <tag></tag>
+   <comment>Create a unique email address
+Test - Navigate to the subscription page and initiate a purchase
+Issue - The next line doesn't work within a PC browser, but works on a mobile device
+Issue - The script sometimes has difficulty scrolling to this next button
+Register as a new user
+Enter shipping information
+Issue - The following line is not working properly - Might be an iframe issue
+Test - Fill in Profile as directed when you subscribed
+Issue - Script fails just past this point</comment>
+   <testCaseGuid>1856d63f-5b0c-4a41-9704-af91c0b8c63d</testCaseGuid>
+</TestCaseEntity>

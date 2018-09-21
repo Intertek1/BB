@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>circle (1)</name>
+   <tag></tag>
+   <elementGuidId>977a6de8-17f3-4a95-bb9c-3d12fa6fede3</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>circle</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cx</name>
+      <type>Main</type>
+      <value>8.3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cy</name>
+      <type>Main</type>
+      <value>8.2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>r</name>
+      <type>Main</type>
+      <value>8</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>transparent</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn&quot;]/div[@class=&quot;app__childrenContainerNarrow___2Gjv4&quot;]/div[@class=&quot;GutterDiv-uPqzs cRBQBu&quot;]/div[@class=&quot;utilities__relative___1GEg3&quot;]/div[2]/div[@class=&quot;form__container___31zeP utilities__relative___1GEg3&quot;]/div[@class=&quot;containers__formVerticalSpacingAdaptive___2TxXH containers__containerForm___2gXsg&quot;]/div[@class=&quot;loginForm__marketingContent___nCdLZ typography__copy14___3VCcc&quot;]/div[@class=&quot;radio__container___1m7Xx utilities__flexCenterVertical___2nEt- utilities__flexContainer___2sCJV utilities__pointer___1ctfY&quot;]/div[@class=&quot;radio__icon___3cIHk&quot;]/svg[@class=&quot;icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9&quot;]/circle[1]</value>
+   </webElementProperties>
+</WebElementEntity>

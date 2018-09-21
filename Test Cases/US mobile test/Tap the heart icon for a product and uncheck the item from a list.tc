@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Item is removed from list and heart icon is unfilled</description>
+   <name>Tap the heart icon for a product and uncheck the item from a list</name>
+   <tag></tag>
+   <comment>The product displays in different places on the page depending on if the test case is run solo or as part of a suite, so the scrolling below is necessary to find it
+This section removes the favorite using the 'X' icon
+This section removes the favorite by deselecting the favorites icon</comment>
+   <testCaseGuid>c2289c74-34e1-4af6-9f01-b0f8d917f998</testCaseGuid>
+</TestCaseEntity>

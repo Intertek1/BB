@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_25.00_image__absolute___2D</name>
+   <tag></tag>
+   <elementGuidId>55e0b418-6e9f-4f8e-b8b9-b8ba3a90c468</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>image__absolute___2DQnl utilities__block___2NUBz utilities__absolute___2Nj_S utilities__pinCenter___1zkCi image__centered___1jcGx</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://static.staging.birchbox.com/shop/media/catalog/product/cache/1/small_image/460x521/85e4522595efc69f496374d01ef2bf13/m/a/mally_highshine_heartbreaker_900x900.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;UHJvZHVjdFdhbGxjYXRlZ29yaWVzNDY=&quot;)/div[@class=&quot;GutterDiv-uPqzs eAjzvm&quot;]/div[1]/div[@class=&quot;gridWide__itemRow___KXITn utilities__flexContainer___2sCJV&quot;]/div[@class=&quot;gridWide__item___1oOo4 layout__flexBasis25___3SZys&quot;]/div[@class=&quot;vertical__container___1RhfZ utilities__fullWidth___3kUCi productThumb__thumbContainer___1DSsr&quot;]/div[2]/div[@class=&quot;vertical__thumb___2Pqn1 utilities__relative___1GEg3&quot;]/a[@class=&quot;StyledLink-khUpca ddtewq&quot;]/div[@class=&quot;box__square___tg9oK box__box___3iw65 utilities__fullWidth___3kUCi utilities__overflowContainer___TqQZY utilities__relative___1GEg3 utilities__overflowHidden___2947E&quot;]/img[@class=&quot;image__absolute___2DQnl utilities__block___2NUBz utilities__absolute___2Nj_S utilities__pinCenter___1zkCi image__centered___1jcGx&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='UHJvZHVjdFdhbGxjYXRlZ29yaWVzNDY=']/div/div/div/div[3]/div/div[2]/div/a/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$25.00'])[2]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lipstick Queen Frog Prince Lipstick'])[1]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mally Beauty High-Shine Liquid Lipstick Pens'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$20.00'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <value>//img[contains(@src,'https://static.staging.birchbox.com/shop/media/catalog/product/cache/1/small_image/460x521/85e4522595efc69f496374d01ef2bf13/m/a/mally_highshine_heartbreaker_900x900.jpg')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[3]/div/div[2]/div/a/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

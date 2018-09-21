@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout complete. Go to My Account, you should see the latest order in Order History.</description>
+   <name>Add a regular full sized item to your cart and place an order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71b9570c-8695-4d92-ad0f-5301bfa2bef3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Join</name>
+   <tag></tag>
+   <elementGuidId>3a59cd68-bdeb-46b0-b18b-649497c93a04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;Drawer__OuterDiv-fQULRK utilities__cover___WKDvY jxeJTN&quot;]/div[@class=&quot;Drawer__InnerDiv-QSCgb jfPdeQ&quot;]/div[@class=&quot;DrawerDiv-ihhGLG ZybrZ&quot;]/div[@class=&quot;TransitionContainer__NarrowScrollDiv-dvmQNx hDoneZ&quot;]/div[1]/div[1]/div[@class=&quot;NavDrawer__PrimaryNavDiv-eqSCkY fHeSne&quot;]/a[@class=&quot;NavButtonLink-domlco dIUJER StyledButton-gXzblK bfJKoO&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>NavButtonLink-domlco dIUJER StyledButton-gXzblK bfJKoO</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>colorNeutral1F</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>to</name>
+      <type>Main</type>
+      <value>/subscribe/women</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/subscribe/women</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>matches regex</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>(?i)(join|subscribe)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;Drawer__OuterDiv-fQULRK utilities__cover___WKDvY jxeJTN&quot;]/div[@class=&quot;Drawer__InnerDiv-QSCgb jfPdeQ&quot;]/div[@class=&quot;DrawerDiv-ihhGLG ZybrZ&quot;]/div[@class=&quot;TransitionContainer__NarrowScrollDiv-dvmQNx hDoneZ&quot;]/div[1]/div[1]/div[@class=&quot;NavDrawer__PrimaryNavDiv-eqSCkY fHeSne&quot;]/a[@class=&quot;NavButtonLink-domlco dIUJER StyledButton-gXzblK bfJKoO&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

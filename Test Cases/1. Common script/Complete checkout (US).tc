@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Complete checkout (US)</name>
+   <tag></tag>
+   <comment>Test - Check for correct sales tax calculation and currency symbol
+Click the Birchbox icon</comment>
+   <testCaseGuid>85b18773-a973-4eb6-bf2a-685d76423bd2</testCaseGuid>
+</TestCaseEntity>

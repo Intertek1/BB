@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_customerMessage</name>
+   <tag></tag>
+   <elementGuidId>5f8a8654-2480-4041-b1c1-a3a77ba3668d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>textArea__textarea___22lfF utilities__block___2NUBz utilities__resetBox___2gA-8 utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9 typography__inputCopy___dUIAv typography__copy14___3VCcc textArea__textareaWithLabel___3rHTc</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>customerMessage</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;app__childrenContainerNarrow___2Gjv4 app__childrenContainerWithTrimNarrow___2aYoL&quot;]/div[@class=&quot;utilities__relative___1GEg3&quot;]/div[@class=&quot;GutterDiv-uPqzs bOPyiR&quot;]/div[1]/div[@class=&quot;referAFriend__section___a7nQu&quot;]/div[@class=&quot;form__container___31zeP utilities__relative___1GEg3&quot;]/div[1]/div[@class=&quot;inviteFriendsForm__personalMessageContainer___2dZL5&quot;]/label[@class=&quot;textArea__container___3wrGz utilities__relative___1GEg3 utilities__block___2NUBz layout__heightControlAdaptive___3k245 textArea__containerValid___1cW2W&quot;]/textarea[@class=&quot;textArea__textarea___22lfF utilities__block___2NUBz utilities__resetBox___2gA-8 utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9 typography__inputCopy___dUIAv typography__copy14___3VCcc textArea__textareaWithLabel___3rHTc&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

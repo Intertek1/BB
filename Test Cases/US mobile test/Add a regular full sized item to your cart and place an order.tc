@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add a regular full sized item to your cart and place an order</name>
+   <tag></tag>
+   <comment>Scroll the page to get the Add To Cart button to display</comment>
+   <testCaseGuid>15aa61ee-5189-4bde-b12f-08e3215e78b7</testCaseGuid>
+</TestCaseEntity>

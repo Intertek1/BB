@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add a configurable item and place an order</name>
+   <tag></tag>
+   <comment>Not sure how the buttons for the different shades are differentiated to make the next part work</comment>
+   <testCaseGuid>fda4f5be-2b9f-4345-8f29-047432a53f27</testCaseGuid>
+</TestCaseEntity>

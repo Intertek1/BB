@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add a configurable item to your cart and place an order (UK, mobile)</name>
+   <tag></tag>
+   <comment>Navigate to a configurable product and explore
+Issue - Can only select between two different shades</comment>
+   <testCaseGuid>208438a0-71a0-4ac3-8e83-032e0d10b1d7</testCaseGuid>
+</TestCaseEntity>

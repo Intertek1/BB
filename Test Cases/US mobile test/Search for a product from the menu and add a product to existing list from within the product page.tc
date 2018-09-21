@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search for a product from the menu and add a product to existing list from within the product page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6da71e5-ae4d-478e-b4bd-9fe96748b997</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Purchase subscription and create profile</name>
+   <tag></tag>
+   <comment>Test - Navigate to the subscription page and initiate a purchase
+Register as a new user
+Enter shipping and credit card information
+Test - Check for correct sales tax calculation and currency symbol
+Test - Fill in profile as directed when you subscribed
+Issue - Not sure how to enter the date of birth at this point, so the script just selects the Next button</comment>
+   <testCaseGuid>b9640bcf-7ff0-4a25-83d6-48730769f797</testCaseGuid>
+</TestCaseEntity>

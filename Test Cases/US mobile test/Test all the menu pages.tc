@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>All screens load correctly and nav updates</description>
+   <name>Test all the menu pages</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1670f40-f227-43e9-ba72-15ec5d766422</testCaseGuid>
+</TestCaseEntity>

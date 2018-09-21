@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_searchForm__input___2s6r</name>
+   <tag></tag>
+   <elementGuidId>4545e605-008a-4e50-b34a-06e7e12fda7b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>search</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocapitalize</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocorrect</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>searchForm__input___2s6rs utilities__resetBox___2gA-8 utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9 typography__inputCopy___dUIAv typography__copy14___3VCcc</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Buscar Birchbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;navBar__container___2OWev utilities__fixed___1nM3D utilities__pinTopLeft___2dFnK utilities__fullWidth___3kUCi utilities__flexColReverse___1RTGl utilities__flexContainer___2sCJV theme__navBackground___qFmEe&quot;]/div[@class=&quot;navBar__barWrapperNarrow___237cs utilities__relative___1GEg3&quot;]/div[@class=&quot;searchNarrow__container___3P1nU utilities__flexCenterVertical___2nEt- utilities__flexContainer___2sCJV utilities__fullHeight___NZTu9 layout__adaptiveGutterPadding___1evEM layout__adaptiveGutterPaddingRight___2Ourm layout__adaptiveGutterPaddingLeft___1KTBe&quot;]/div[@class=&quot;searchNarrow__center___1Tz56 utilities__flexGrow___2w8I0 utilities__fullHeight___NZTu9&quot;]/form[@class=&quot;searchNarrow__form___23tuX utilities__fullHeight___NZTu9&quot;]/input[@class=&quot;searchForm__input___2s6rs utilities__resetBox___2gA-8 utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9 typography__inputCopy___dUIAv typography__copy14___3VCcc&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

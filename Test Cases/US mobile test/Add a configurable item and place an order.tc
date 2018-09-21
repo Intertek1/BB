@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add a configurable item and place an order</name>
+   <tag></tag>
+   <comment>Navigate to a configurable product and explore
+Issue - Can only select between two different shades
+</comment>
+   <testCaseGuid>e681994b-afdb-4f14-8d75-9926a97a150b</testCaseGuid>
+</TestCaseEntity>

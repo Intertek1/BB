@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8dc8a0e1-6a10-4678-8574-445881a2724e</testCaseGuid>
+</TestCaseEntity>

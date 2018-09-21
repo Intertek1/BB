@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Remove an item from the cart</name>
+   <tag></tag>
+   <comment>Verify that an item can be removed by selecting the 'X' button
+Verify that an item can be removed by selecting the '-' button</comment>
+   <testCaseGuid>e8eb998b-90f5-4164-9441-abe84bea2f3a</testCaseGuid>
+</TestCaseEntity>

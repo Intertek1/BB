@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>All boxes show in the gallery view with correct labels. &quot;Review Samples&quot; should appear next to latest box if there are any samples left to review.</description>
+   <name>Account dashboard correctly reflects points, subscriber status, number of boxes</name>
+   <tag></tag>
+   <comment>Capture and compare the strings in the &quot;Your Account&quot; menu and in the &quot;Birchbox Loyalty Program&quot; page that display the number of points and throw an error if they don't match
+Ensure that an active subscription is mentioned under Subscription Details</comment>
+   <testCaseGuid>368ee0e6-e1bd-4432-a6a9-daa1c69b3da9</testCaseGuid>
+</TestCaseEntity>

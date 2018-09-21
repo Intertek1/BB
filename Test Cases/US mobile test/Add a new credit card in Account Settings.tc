@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add a new credit card in Account Settings</name>
+   <tag></tag>
+   <comment>Test - Add a new credit card in Account Settings
+Issue - The following line is not working properly - Might be an iframe issue</comment>
+   <testCaseGuid>f3d8db98-cd50-44d7-af56-ec390c00a88a</testCaseGuid>
+</TestCaseEntity>

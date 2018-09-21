@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Purchase subscription and create profile (ES, mobile)</name>
+   <tag></tag>
+   <comment>Navigate to the subscription page and initiate a purchase
+Register as a new user
+Script has difficulty scrolling at this point, so a while loop should force it to keep trying, but doesn't work
+Enter shipping information
+Complete the profile, tapping all available options</comment>
+   <testCaseGuid>09bf658f-10d4-4955-893e-6afe1fbcdcf1</testCaseGuid>
+</TestCaseEntity>
