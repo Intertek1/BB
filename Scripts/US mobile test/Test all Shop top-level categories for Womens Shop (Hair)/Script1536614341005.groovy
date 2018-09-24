@@ -415,6 +415,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Dry Shampoos/svg_ 2018 Birchbox_icon__svg__'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Dry Shampoos/div_Hair'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Shop Dry Shampoos/div_Hair'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Dry Shampoos/div_Extend'))
@@ -522,6 +524,8 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Hair Tools/a_Travel Prod
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Travel Size Hair Products/svg_ 2018 Birchbox_icon__svg__'))
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Travel Size Hair Products/div_Hair'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Travel Size Hair Products/div_Hair'))
 

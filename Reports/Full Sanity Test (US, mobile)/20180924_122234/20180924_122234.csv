@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+"Full Sanity Test (US, mobile)",Chrome 69.0.3497.100,,2018-09-24 12:22:36,2018-09-24 12:23:05,28.392s,FAILED
+,,,,,,
+Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com),Chrome 69.0.3497.100,,2018-09-24 12:22:37,2018-09-24 12:22:55,18.560s,PASSED
+openBrowser,Chrome 69.0.3497.100,Browser launches only once and will remain open throughout all the tests,2018-09-24 12:22:37,2018-09-24 12:22:41,4.004s,PASSED
+Statement - viewportHeight = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportHeight(),Chrome 69.0.3497.100,,2018-09-24 12:22:41,2018-09-24 12:22:41,0.051s,PASSED
+Statement - viewportWidth = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 69.0.3497.100,,2018-09-24 12:22:41,2018-09-24 12:22:41,0.035s,PASSED
+"Statement - println(""Browser size: "" + viewportWidth + ""X"" + viewportHeight)",Chrome 69.0.3497.100,,2018-09-24 12:22:41,2018-09-24 12:22:41,0.003s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,Navigate to the Birchbox staging website,2018-09-24 12:22:41,2018-09-24 12:22:44,2.480s,PASSED
+Statement - If (viewportWidth > 1000),Chrome 69.0.3497.100,"Check the browser size to see if the test is running on either a desktop or mobile device.  It's not perfect, but generally a PC browser will open much wider",2018-09-24 12:22:44,2018-09-24 12:22:45,1.311s,PASSED
+delay,Chrome 69.0.3497.100,"A 15% discount popup displays only once roughly 5 seconds after the web page loads for the first time, so the script will give it time to display here",2018-09-24 12:22:45,2018-09-24 12:22:55,10.029s,PASSED
+click,Chrome 69.0.3497.100,Dismiss the popup,2018-09-24 12:22:55,2018-09-24 12:22:55,0.168s,PASSED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin),Chrome 69.0.3497.100,,2018-09-24 12:22:55,2018-09-24 12:23:05,9.306s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-24 12:22:56,2018-09-24 12:22:56,0.002s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-24 12:22:56,2018-09-24 12:22:57,1.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 12:22:57,2018-09-24 12:22:57,0.324s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 12:22:57,2018-09-24 12:22:59,2.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 12:22:59,2018-09-24 12:23:00,0.158s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 12:23:00,2018-09-24 12:23:00,0.836s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 12:23:00,2018-09-24 12:23:01,1.003s,PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-09-24 12:23:01,2018-09-24 12:23:02,0.395s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-24 12:23:02,2018-09-24 12:23:02,0.100s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 12:23:02,2018-09-24 12:23:02,0.383s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 12:23:02,2018-09-24 12:23:04,2.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 12:23:04,2018-09-24 12:23:04,0.221s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 12:23:04,2018-09-24 12:23:05,0.154s,FAILED

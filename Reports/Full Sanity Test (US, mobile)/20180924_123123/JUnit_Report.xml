@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Full Sanity Test (US, mobile)" time="75" tests="1" failures="1" errors="0">
+   <testsuite name="Full Sanity Test (US, mobile)" tests="1" failures="1" errors="0" time="75" timestamp="2018-09-24 12:31:25" hostname="vbrooks - PLEMKTPLACE-08.esa.winadroot.com" id="Test Suites/Full Sanity Test (US, mobile)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vbrooks\\Katalon Studio\\Birchbox\\Reports\\Full Sanity Test (US, mobile)\\20180924_123123"/>
+         <property name="logFiles" value="C:\\Users\\vbrooks\\Katalon Studio\\Birchbox\\Reports\\Full Sanity Test (US, mobile)\\20180924_123123\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vbrooks - PLEMKTPLACE-08.esa.winadroot.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="10.241.184.32"/>
+         <property name="sessionId" value="edafb1cc93036a05b3a088c562a00ed9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)" classname="Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)" status="PASSED">
+         <system-out><![CDATA[2018-09-24 12:31:25 - [TEST_CASE][PASSED] - Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com): Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)
+
+2018-09-24 12:31:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-24 12:31:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-24 12:31:30 - [TEST_STEP][PASSED] - Statement - viewportHeight = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportHeight(): Viewport height is 707
+
+2018-09-24 12:31:30 - [MESSAGE][PASSED] - Viewport height is 707
+
+2018-09-24 12:31:30 - [TEST_STEP][PASSED] - Statement - viewportWidth = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(): Viewport width is 1040
+
+2018-09-24 12:31:30 - [MESSAGE][PASSED] - Viewport width is 1040
+
+2018-09-24 12:31:30 - [TEST_STEP][PASSED] - Statement - println("Browser size: " + viewportWidth + "X" + viewportHeight): null
+
+2018-09-24 12:31:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.staging.birchbox.com' successfully
+
+2018-09-24 12:31:32 - [MESSAGE][PASSED] - Navigate to 'https://www.staging.birchbox.com' successfully
+
+2018-09-24 12:31:32 - [TEST_STEP][PASSED] - Statement - If (viewportWidth > 1000): Viewport is set to new size with width = 400 and height = 900
+
+2018-09-24 12:31:32 - [TEST_STEP][PASSED] - setViewPortSize: Viewport is set to new size with width = 400 and height = 900
+
+2018-09-24 12:31:34 - [MESSAGE][PASSED] - Viewport is set to new size with width = 400 and height = 900
+
+2018-09-24 12:31:34 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-09-24 12:31:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-09-24 12:31:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/svg_icon__close_popup' is clicked on
+
+2018-09-24 12:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/svg_icon__close_popup' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin)" classname="Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin)" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Essences/div_Skin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: edafb1cc93036a05b3a088c562a00ed9)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536617663530.run(Script1536617663530.groovy:236)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537817483152.run(TempTestSuite1537817483152.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-24 12:31:44 - [TEST_CASE][FAILED] - Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin): Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Essences/div_Skin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: edafb1cc93036a05b3a088c562a00ed9)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536617663530.run(Script1536617663530.groovy:236)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537817483152.run(TempTestSuite1537817483152.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-24 12:31:44 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-09-24 12:31:44 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-09-24 12:31:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:31:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:31:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:31:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:31:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:31:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/div_Skin' is clicked on
+
+2018-09-24 12:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/div_Skin' is clicked on
+
+2018-09-24 12:31:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/div_Cleanse' is clicked on
+
+2018-09-24 12:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/div_Cleanse' is clicked on
+
+2018-09-24 12:31:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:31:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:31:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cleansers' is visible
+
+2018-09-24 12:31:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:31:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cleansers' is visible
+
+2018-09-24 12:31:50 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cleansers' is clickable
+
+2018-09-24 12:31:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:31:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cleansers' is clickable
+
+2018-09-24 12:31:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cleansers' is clicked on
+
+2018-09-24 12:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cleansers' is clicked on
+
+2018-09-24 12:31:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:31:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:31:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Face Cleansers/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Face Cleansers/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:31:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Face Cleansers/div_Skin' is clicked on
+
+2018-09-24 12:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Face Cleansers/div_Skin' is clicked on
+
+2018-09-24 12:31:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Face Cleansers/div_Cleanse' is clicked on
+
+2018-09-24 12:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Face Cleansers/div_Cleanse' is clicked on
+
+2018-09-24 12:31:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:31:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:31:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Makeup Removers  Wipes' is visible
+
+2018-09-24 12:31:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:31:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Makeup Removers  Wipes' is visible
+
+2018-09-24 12:31:55 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Makeup Removers  Wipes' is clickable
+
+2018-09-24 12:31:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:31:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Makeup Removers  Wipes' is clickable
+
+2018-09-24 12:31:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Makeup Removers  Wipes' is clicked on
+
+2018-09-24 12:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Makeup Removers  Wipes' is clicked on
+
+2018-09-24 12:31:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:31:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:31:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Removers and Face/svg_ 2018 Birchbox_icon__svg___1' is clicked on
+
+2018-09-24 12:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Removers and Face/svg_ 2018 Birchbox_icon__svg___1' is clicked on
+
+2018-09-24 12:31:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Removers and Face/div_Skin' is clicked on
+
+2018-09-24 12:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Removers and Face/div_Skin' is clicked on
+
+2018-09-24 12:31:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Removers and Face/div_Cleanse' is clicked on
+
+2018-09-24 12:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Removers and Face/div_Cleanse' is clicked on
+
+2018-09-24 12:31:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:31:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:31:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tools' is visible
+
+2018-09-24 12:31:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:31:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tools' is visible
+
+2018-09-24 12:31:59 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tools' is clickable
+
+2018-09-24 12:31:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:31:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tools' is clickable
+
+2018-09-24 12:31:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tools' is clicked on
+
+2018-09-24 12:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tools' is clicked on
+
+2018-09-24 12:31:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:32:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:32:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Skincare Tools/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Skincare Tools/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Skincare Tools/div_Skin' is clicked on
+
+2018-09-24 12:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Skincare Tools/div_Skin' is clicked on
+
+2018-09-24 12:32:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Skincare Tools/div_Treat' is clicked on
+
+2018-09-24 12:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Skincare Tools/div_Treat' is clicked on
+
+2018-09-24 12:32:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:32:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:32:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Exfoliators  Scrubs' is visible
+
+2018-09-24 12:32:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Exfoliators  Scrubs' is visible
+
+2018-09-24 12:32:03 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Exfoliators  Scrubs' is clickable
+
+2018-09-24 12:32:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Exfoliators  Scrubs' is clickable
+
+2018-09-24 12:32:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Exfoliators  Scrubs' is clicked on
+
+2018-09-24 12:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Exfoliators  Scrubs' is clicked on
+
+2018-09-24 12:32:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:32:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:32:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Exfoliators/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Exfoliators/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Exfoliators/div_Skin' is clicked on
+
+2018-09-24 12:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Exfoliators/div_Skin' is clicked on
+
+2018-09-24 12:32:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Exfoliators/div_Treat' is clicked on
+
+2018-09-24 12:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Exfoliators/div_Treat' is clicked on
+
+2018-09-24 12:32:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:32:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:32:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Masks  Sheet Masks' is visible
+
+2018-09-24 12:32:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Masks  Sheet Masks' is visible
+
+2018-09-24 12:32:07 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Masks  Sheet Masks' is clickable
+
+2018-09-24 12:32:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Masks  Sheet Masks' is clickable
+
+2018-09-24 12:32:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Masks  Sheet Masks' is clicked on
+
+2018-09-24 12:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Masks  Sheet Masks' is clicked on
+
+2018-09-24 12:32:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:32:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:32:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Face Masks and Sheet Mask/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Face Masks and Sheet Mask/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Face Masks and Sheet Mask/div_Skin' is clicked on
+
+2018-09-24 12:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Face Masks and Sheet Mask/div_Skin' is clicked on
+
+2018-09-24 12:32:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Face Masks and Sheet Mask/div_Treat' is clicked on
+
+2018-09-24 12:32:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Face Masks and Sheet Mask/div_Treat' is clicked on
+
+2018-09-24 12:32:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:32:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:32:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Peels' is visible
+
+2018-09-24 12:32:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Peels' is visible
+
+2018-09-24 12:32:12 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Peels' is clickable
+
+2018-09-24 12:32:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Peels' is clickable
+
+2018-09-24 12:32:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Peels' is clicked on
+
+2018-09-24 12:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Peels' is clicked on
+
+2018-09-24 12:32:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:32:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:32:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Facial Peels/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Facial Peels/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Facial Peels/div_Skin' is clicked on
+
+2018-09-24 12:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Facial Peels/div_Skin' is clicked on
+
+2018-09-24 12:32:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Facial Peels/div_Treat' is clicked on
+
+2018-09-24 12:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Facial Peels/div_Treat' is clicked on
+
+2018-09-24 12:32:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:32:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:32:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Toners  Mists' is visible
+
+2018-09-24 12:32:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Toners  Mists' is visible
+
+2018-09-24 12:32:16 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Toners  Mists' is clickable
+
+2018-09-24 12:32:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Toners  Mists' is clickable
+
+2018-09-24 12:32:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Toners  Mists' is clicked on
+
+2018-09-24 12:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Toners  Mists' is clicked on
+
+2018-09-24 12:32:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:32:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:32:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Toners  Mists/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Toners  Mists/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Toners  Mists/div_Skin' is clicked on
+
+2018-09-24 12:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Toners  Mists/div_Skin' is clicked on
+
+2018-09-24 12:32:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Toners  Mists/div_Treat' is clicked on
+
+2018-09-24 12:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Toners  Mists/div_Treat' is clicked on
+
+2018-09-24 12:32:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:32:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:32:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Serums' is visible
+
+2018-09-24 12:32:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Serums' is visible
+
+2018-09-24 12:32:20 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Serums' is clickable
+
+2018-09-24 12:32:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Serums' is clickable
+
+2018-09-24 12:32:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Serums' is clicked on
+
+2018-09-24 12:32:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Face Serums' is clicked on
+
+2018-09-24 12:32:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:32:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:32:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Face Serums/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Face Serums/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Face Serums/div_Skin' is clicked on
+
+2018-09-24 12:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Face Serums/div_Skin' is clicked on
+
+2018-09-24 12:32:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:32:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:32:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Face Serums/div_Treat' is visible
+
+2018-09-24 12:32:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Face Serums/div_Treat' is visible
+
+2018-09-24 12:32:24 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Face Serums/div_Treat' is clickable
+
+2018-09-24 12:32:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Face Serums/div_Treat' is clickable
+
+2018-09-24 12:32:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Face Serums/div_Treat' is clicked on
+
+2018-09-24 12:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Face Serums/div_Treat' is clicked on
+
+2018-09-24 12:32:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:32:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:32:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Acne  Oil Treatments' is visible
+
+2018-09-24 12:32:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Acne  Oil Treatments' is visible
+
+2018-09-24 12:32:25 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Acne  Oil Treatments' is clickable
+
+2018-09-24 12:32:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Acne  Oil Treatments' is clickable
+
+2018-09-24 12:32:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Acne  Oil Treatments' is clicked on
+
+2018-09-24 12:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Acne  Oil Treatments' is clicked on
+
+2018-09-24 12:32:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:32:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:32:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Acne Treatments and Oily/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Acne Treatments and Oily/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/div_Skin' is clicked on
+
+2018-09-24 12:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/div_Skin' is clicked on
+
+2018-09-24 12:32:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Acne Treatments and Oily/div_Treat' is clicked on
+
+2018-09-24 12:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Acne Treatments and Oily/div_Treat' is clicked on
+
+2018-09-24 12:32:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:32:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:32:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments' is visible
+
+2018-09-24 12:32:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments' is visible
+
+2018-09-24 12:32:29 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments' is clickable
+
+2018-09-24 12:32:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments' is clickable
+
+2018-09-24 12:32:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments' is clicked on
+
+2018-09-24 12:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments' is clicked on
+
+2018-09-24 12:32:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:32:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:32:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eye Masks and Eye Treatme/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eye Masks and Eye Treatme/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eye Masks and Eye Treatme/div_Skin' is clicked on
+
+2018-09-24 12:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eye Masks and Eye Treatme/div_Skin' is clicked on
+
+2018-09-24 12:32:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eye Masks and Eye Treatme/div_Treat' is clicked on
+
+2018-09-24 12:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eye Masks and Eye Treatme/div_Treat' is clicked on
+
+2018-09-24 12:32:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:32:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:32:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments_1' is visible
+
+2018-09-24 12:32:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments_1' is visible
+
+2018-09-24 12:32:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments_1' is clickable
+
+2018-09-24 12:32:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments_1' is clickable
+
+2018-09-24 12:32:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments_1' is clicked on
+
+2018-09-24 12:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments_1' is clicked on
+
+2018-09-24 12:32:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:32:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:32:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/div_Skin' is clicked on
+
+2018-09-24 12:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/div_Skin' is clicked on
+
+2018-09-24 12:32:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/div_Treat' is clicked on
+
+2018-09-24 12:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/div_Treat' is clicked on
+
+2018-09-24 12:32:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 12:32:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:32:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Essences' is visible
+
+2018-09-24 12:32:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Essences' is visible
+
+2018-09-24 12:32:38 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Essences' is clickable
+
+2018-09-24 12:32:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 12:32:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Essences' is clickable
+
+2018-09-24 12:32:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Essences' is clicked on
+
+2018-09-24 12:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Essences' is clicked on
+
+2018-09-24 12:32:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 12:32:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:32:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Essences/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Essences/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 12:32:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Essences/div_Skin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: edafb1cc93036a05b3a088c562a00ed9)
+
+2018-09-24 12:32:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Essences/div_Skin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: edafb1cc93036a05b3a088c562a00ed9)]]></system-out>
+         <system-err><![CDATA[2018-09-24 12:31:44 - [TEST_CASE][FAILED] - Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin): Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Essences/div_Skin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: edafb1cc93036a05b3a088c562a00ed9)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536617663530.run(Script1536617663530.groovy:236)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537817483152.run(TempTestSuite1537817483152.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-24 12:31:25 - [TEST_SUITE][FAILED] - Full Sanity Test (US, mobile): Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Essences/div_Skin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: edafb1cc93036a05b3a088c562a00ed9)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536617663530.run(Script1536617663530.groovy:236)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537817483152.run(TempTestSuite1537817483152.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-24 12:31:25 - [TEST_SUITE][FAILED] - Full Sanity Test (US, mobile): Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Essences/div_Skin' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: edafb1cc93036a05b3a088c562a00ed9)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536617663530.run(Script1536617663530.groovy:236)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537817483152.run(TempTestSuite1537817483152.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

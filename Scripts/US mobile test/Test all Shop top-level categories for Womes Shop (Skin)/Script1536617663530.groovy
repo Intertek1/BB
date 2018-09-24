@@ -187,9 +187,11 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Acne Treatments and Oily
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments'))
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments'))
 
@@ -231,6 +233,12 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Essences/svg_ 2018 Birchbox_icon__svg__'))
 
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Essences/div_Skin'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Essences/div_Skin'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Essences/div_Skin'))
 
 WebUI.click(findTestObject('Object Repository/Page_Essences/div_Moisturize'))
@@ -267,6 +275,12 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Face Oils/div_Skin'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Face Oils/div_Moisturize'))
 
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Creams'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Creams'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Creams'))
 
 WebUI.delay(2)
@@ -279,6 +293,10 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Eye Creams/div_Moisturiz
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Balms_1'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Balms_1'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Balms_1'))
 
 WebUI.delay(2)
@@ -288,6 +306,12 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Lip Balms/svg_ 2018 Birc
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip Balms/div_Skin'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip Balms/div_Protect'))
+
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Sunscreens'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Sunscreens'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Sunscreens'))
 
@@ -301,27 +325,13 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Sun Protection/div_Prote
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Tinted Moisturizers  BBCC'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Tinted Moisturizers  BBCC'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Tinted Moisturizers  BBCC'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__'))
-
-WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_Skin'))
-
-WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Protect'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_SPF Moisturizers'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_Shop Sun Protection/svg_ 2018 Birchbox_icon__svg__'))
-
-WebUI.click(findTestObject('Object Repository/Page_Shop Sun Protection/div_Skin'))
-
-WebUI.click(findTestObject('Object Repository/Page_Shop Sun Protection/div_See all Skincare'))
 
 WebUI.delay(2)
 
@@ -335,6 +345,57 @@ WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for W
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_Skin'))
 
+WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Protect'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_SPF Moisturizers'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_SPF Moisturizers'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_SPF Moisturizers'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_Shop Sun Protection/svg_ 2018 Birchbox_icon__svg__'))
+
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Sun Protection/div_Skin'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/div_Skin'), 0)
+
+WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_Skin'))
+
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Sun Protection/div_See all Skincare'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Sun Protection/div_See all Skincare'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_Shop Sun Protection/div_See all Skincare'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Page_Beauty Box Subscription for Wo/div_Skin'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/div_Skin'), 0)
+
+WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_Skin'))
+
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Best Sellers_1'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Best Sellers_1'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Best Sellers_1'))
 
 WebUI.delay(2)
@@ -345,6 +406,12 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Skincare Best Sellers/di
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Skincare Best Sellers/a_Supplements  Wellness'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Skincare Best Sellers/a_Supplements  Wellness'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Shop Skincare Best Sellers/a_Supplements  Wellness'))
 
 WebUI.delay(2)
@@ -354,6 +421,10 @@ WebUI.click(findTestObject('Object Repository/Page_Skincare Supplements  Skincar
 WebUI.click(findTestObject('Object Repository/Page_Skincare Supplements  Skincare/div_Skin'))
 
 WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Skincare Supplements  Skincare/a_Skincare Sets'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Skincare Supplements  Skincare/a_Skincare Sets'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Skincare Supplements  Skincare/a_Skincare Sets'))
 
@@ -368,15 +439,29 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Skincare Sets/div_Skin')
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Skincare Sets/a_Skincare Tools'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Skincare Sets/a_Skincare Tools'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Shop Skincare Sets/a_Skincare Tools'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Cleansing Tools/svg_ 2018 Birchbox_icon__svg__'))
 
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Cleansing Tools/div_Skin'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Cleansing Tools/div_Skin'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Shop Cleansing Tools/div_Skin'))
 
 WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Cleansing Tools/a_All Body'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Cleansing Tools/a_All Body'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Cleansing Tools/a_All Body'))
 
@@ -388,6 +473,10 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Body Products/div_Skin')
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Body Products/a_Body Sets'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Body Products/a_Body Sets'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Shop Body Products/a_Body Sets'))
 
 WebUI.delay(2)
@@ -398,6 +487,10 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Bath  Body Sets/div_Skin
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Bath  Body Sets/a_Body Tools'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Bath  Body Sets/a_Body Tools'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Shop Bath  Body Sets/a_Body Tools'))
 
 WebUI.delay(2)
@@ -407,6 +500,10 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Nail  Cuticle Care/svg_ 
 WebUI.click(findTestObject('Object Repository/Page_Shop Nail  Cuticle Care/div_Skin'))
 
 WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Nail  Cuticle Care/a_Gifts with Purchase'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Nail  Cuticle Care/a_Gifts with Purchase'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Nail  Cuticle Care/a_Gifts with Purchase'))
 
