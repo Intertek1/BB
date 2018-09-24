@@ -128,8 +128,6 @@ WebUI.comment('Test - Fill in profile as directed when you subscribed')
 while (!(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Go to your profile (2)'))) {
 }
 
-WebUI.acceptAlert()
-
 WebUI.delay(5)
 
 WebUI.verifyElementNotPresent(findTestObject('Page_Birchbox Join the UKs 1 beauty/div_503Backend fetch failed'), 0)
