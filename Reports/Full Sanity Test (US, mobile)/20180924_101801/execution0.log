@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-24T10:18:03</date>
+  <millis>1537809483950</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Full Sanity Test (US, mobile)</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Full Sanity Test (US, mobile)</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Full Sanity Test (US, mobile)</property>
+</record>
+<record>
+  <date>2018-09-24T10:18:03</date>
+  <millis>1537809483998</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;vbrooks - PLEMKTPLACE-08.esa.winadroot.com&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">vbrooks - PLEMKTPLACE-08.esa.winadroot.com</property>
+</record>
+<record>
+  <date>2018-09-24T10:18:03</date>
+  <millis>1537809483999</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 7 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2018-09-24T10:18:04</date>
+  <millis>1537809484001</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.241.184.32&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.241.184.32</property>
+</record>
+<record>
+  <date>2018-09-24T10:18:04</date>
+  <millis>1537809484002</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.7.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.7.1.1</property>
+</record>
+<record>
+  <date>2018-09-24T10:18:04</date>
+  <millis>1537809484461</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)</property>
+  <property name="source">C:\\Users\\vbrooks\\Katalon Studio\\Birchbox\\Test Cases\\US mobile test\\Launch the Birchbox site in the required locale - US (www.staging.birchbox.com).tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-09-24T10:18:04</date>
+  <millis>1537809484506</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-09-24T10:18:04</date>
+  <millis>1537809484942</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Browser launches only once and will remain open throughout all the tests</property>
+</record>

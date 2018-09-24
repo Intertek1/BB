@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+"Full Sanity Test (US, mobile)",Chrome 69.0.3497.100,,2018-09-24 09:17:19,2018-09-24 09:19:35,2m - 15.904s,FAILED
+,,,,,,
+Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com),Chrome 69.0.3497.100,,2018-09-24 09:17:19,2018-09-24 09:17:38,18.824s,PASSED
+openBrowser,Chrome 69.0.3497.100,Browser launches only once and will remain open throughout all the tests,2018-09-24 09:17:20,2018-09-24 09:17:24,4.324s,PASSED
+Statement - viewportHeight = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportHeight(),Chrome 69.0.3497.100,,2018-09-24 09:17:24,2018-09-24 09:17:24,0.071s,PASSED
+Statement - viewportWidth = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 69.0.3497.100,,2018-09-24 09:17:24,2018-09-24 09:17:24,0.034s,PASSED
+"Statement - println(""Browser size: "" + viewportWidth + ""X"" + viewportHeight)",Chrome 69.0.3497.100,,2018-09-24 09:17:24,2018-09-24 09:17:24,0.004s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,Navigate to the Birchbox staging website,2018-09-24 09:17:24,2018-09-24 09:17:27,2.472s,PASSED
+Statement - If (viewportWidth > 1000),Chrome 69.0.3497.100,"Check the browser size to see if the test is running on either a desktop or mobile device.  It's not perfect, but generally a PC browser will open much wider",2018-09-24 09:17:27,2018-09-24 09:17:28,1.209s,PASSED
+delay,Chrome 69.0.3497.100,"A 15% discount popup displays only once roughly 5 seconds after the web page loads for the first time, so the script will give it time to display here",2018-09-24 09:17:28,2018-09-24 09:17:38,10.027s,PASSED
+click,Chrome 69.0.3497.100,Dismiss the popup,2018-09-24 09:17:38,2018-09-24 09:17:38,0.150s,PASSED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup),Chrome 69.0.3497.100,,2018-09-24 09:17:38,2018-09-24 09:19:20,1m - 42.079s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-24 09:17:39,2018-09-24 09:17:39,0.002s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-24 09:17:39,2018-09-24 09:17:41,2.001s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-24 09:17:41,2018-09-24 09:17:41,0.121s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:17:41,2018-09-24 09:17:41,0.239s,PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-09-24 09:17:41,2018-09-24 09:17:42,0.249s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-24 09:17:42,2018-09-24 09:17:42,0.197s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:17:42,2018-09-24 09:17:42,0.222s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:17:42,2018-09-24 09:17:43,0.832s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:17:43,2018-09-24 09:19:20,1m - 37.492s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Hair),Chrome 69.0.3497.100,,2018-09-24 09:19:20,2018-09-24 09:19:33,13.027s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-24 09:19:21,2018-09-24 09:19:21,0.001s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-24 09:19:21,2018-09-24 09:19:23,2.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:23,2018-09-24 09:19:23,0.325s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 09:19:23,2018-09-24 09:19:24,1.007s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:24,2018-09-24 09:19:24,0.150s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:24,2018-09-24 09:19:25,0.825s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 09:19:25,2018-09-24 09:19:26,1.003s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:26,2018-09-24 09:19:26,0.429s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 09:19:26,2018-09-24 09:19:28,2.000s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:28,2018-09-24 09:19:29,0.309s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:29,2018-09-24 09:19:29,0.248s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:29,2018-09-24 09:19:29,0.500s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 09:19:29,2018-09-24 09:19:30,1.001s,PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-09-24 09:19:30,2018-09-24 09:19:31,0.105s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-24 09:19:31,2018-09-24 09:19:31,0.053s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:31,2018-09-24 09:19:31,0.417s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 09:19:31,2018-09-24 09:19:33,2.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:33,2018-09-24 09:19:33,0.239s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:33,2018-09-24 09:19:33,0.130s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin),Chrome 69.0.3497.100,,2018-09-24 09:19:33,2018-09-24 09:19:35,1.595s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-24 09:19:34,2018-09-24 09:19:34,0.000s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-24 09:19:34,2018-09-24 09:19:35,1.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-24 09:19:35,2018-09-24 09:19:35,0.061s,FAILED

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Scalp Treatments &amp; Exfoliators' or . = 'Scalp Treatments &amp; Exfoliators')]</value>
+         <value>//a[@href = '/category/11391' and (text() = 'Scalp Treatments &amp; Exfoliators' or . = 'Scalp Treatments &amp; Exfoliators')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>StyledLink-khUpca fgCKOS</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

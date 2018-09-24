@@ -31,6 +31,14 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Whats New/div_Makeup'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Whats New/div_Complexion'))
 
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Tinted Moisturizers  BBCC Cr'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Tinted Moisturizers  BBCC Cr'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Tinted Moisturizers  BBCC Cr'))
 
 WebUI.delay(2)
@@ -135,6 +143,8 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Color-Correcting Makeup/
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Color-Correcting Makeup/div_Complexion'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Setting Sprays  Powders'), 
     0)
 
@@ -215,6 +225,8 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Brow Makeup/div_Makeup')
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Brow Makeup/div_Eye'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeliners'), 0)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeliners'), 0)
@@ -252,6 +264,8 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats 
 WebUI.click(findTestObject('Object Repository/Page_Shop Eyeshadows/div_Makeup'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Eyeshadows/div_Eye'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Primers'), 0)
 
@@ -313,6 +327,8 @@ WebUI.click(findTestObject('Object Repository/Page_Shop False Lashes/div_Makeup'
 
 WebUI.click(findTestObject('Object Repository/Page_Shop False Lashes/div_Eye'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Sets  Palettes'), 
     0)
 
@@ -332,6 +348,8 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats 
 WebUI.click(findTestObject('Object Repository/Page_Shop Eye Makeup Sets and Makeu/div_Makeup'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Eye Makeup Sets and Makeu/div_Cheek'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Blushes'), 0)
 
@@ -371,6 +389,8 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Bronzer/div_Makeu
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Bronzer/div_Cheek'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Highlighters'), 0)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Highlighters'), 0)
@@ -388,6 +408,8 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats 
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Highlighter/div_Makeup'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Highlighter/div_Cheek'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Contouring'), 0)
 
@@ -407,6 +429,8 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Contouring Makeup/div_Ma
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Contouring Makeup/div_Cheek'))
 
+WebUI.delay(2)
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Cheek Sets  Palettes'), 
     0)
 
@@ -425,7 +449,11 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats 
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Cheek Palettes and/div_Makeup'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Makeup Cheek Palettes and/div_Cheek'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Cheek Palettes and/div_Cheek'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers'), 
     0)
@@ -447,6 +475,8 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Lip and Cheek Multi-task
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Lip'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lipsticks (3)'), 0)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lipsticks (3)'), 0)
@@ -464,6 +494,8 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lipsticks/div_Makeup'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lipsticks/div_Lip'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Balms'), 0)
 
@@ -483,6 +515,8 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Tinted Lip Balms/div_Mak
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Tinted Lip Balms/div_Lip'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Glosses'), 0)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Glosses'), 0)
@@ -500,6 +534,8 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip Glosses/div_Makeup'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip Glosses/div_Lip'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments'), 
     0)
@@ -521,6 +557,8 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Lip Masks  Lip Treatment
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip Masks  Lip Treatments/div_Lip'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Liners'), 0)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Liners'), 0)
@@ -538,6 +576,8 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip Liner Makeup/div_Makeup'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip Liner Makeup/div_Lip'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers'), 
     0)
@@ -558,6 +598,8 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Makeup'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Lip'))
+
+WebUI.delay(2)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Sets  Palettes'), 
     0)
@@ -595,6 +637,8 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats 
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Best Sellers/div_Makeup'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Makeup Best Sellers/a_Makeup Sets'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Best Sellers/a_Makeup Sets'))
@@ -607,13 +651,21 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Whats Ne
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Sets/div_Makeup'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Makeup Sets/a_Makeup Brushes  Tools'), 0)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Makeup Sets/a_Makeup Brushes  Tools'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Sets/a_Makeup Brushes  Tools'))
 
-WebUI.delay(2)
+WebUI.delay(3)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Makeup Brushes and Makeup/svg_ 2018 Birchbox_icon__svg__'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Makeup Brushes and Makeup/svg_ 2018 Birchbox_icon__svg__'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Brushes and Makeup/svg_ 2018 Birchbox_icon__svg__'))
 
@@ -622,6 +674,8 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Whats Ne
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats New/div_Makeup'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Brushes and Makeup/div_Makeup'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Makeup Brushes and Makeup/a_Makeup Removers'), 0)
 
@@ -636,7 +690,11 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Removers/svg_ 201
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Whats New/div_Makeup'), 0)
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats New/div_Makeup'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Removers/div_Makeup'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Makeup Removers/a_Gifts with Purchase'), 0)
 
@@ -650,7 +708,11 @@ WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for W
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Whats New/div_Makeup'), 0)
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Whats New/div_Makeup'), 0)
+
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_Makeup'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_See all Makeup (1)'), 
     0)

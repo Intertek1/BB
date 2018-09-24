@@ -1,0 +1,2187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Full Sanity Test (US, mobile)" time="171" tests="1" failures="3" errors="0">
+   <testsuite name="Full Sanity Test (US, mobile)" tests="1" failures="3" errors="0" time="171" timestamp="2018-09-24 10:44:48" hostname="vbrooks - PLEMKTPLACE-08.esa.winadroot.com" id="Test Suites/Full Sanity Test (US, mobile)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vbrooks\\Katalon Studio\\Birchbox\\Reports\\Full Sanity Test (US, mobile)\\20180924_104446"/>
+         <property name="logFiles" value="C:\\Users\\vbrooks\\Katalon Studio\\Birchbox\\Reports\\Full Sanity Test (US, mobile)\\20180924_104446\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vbrooks - PLEMKTPLACE-08.esa.winadroot.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="10.241.184.32"/>
+         <property name="sessionId" value="d6a51926c696fecfd49b168f74744b73"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)" classname="Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)" status="PASSED">
+         <system-out><![CDATA[2018-09-24 10:44:48 - [TEST_CASE][PASSED] - Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com): Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)
+
+2018-09-24 10:44:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-24 10:44:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-24 10:44:53 - [TEST_STEP][PASSED] - Statement - viewportHeight = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportHeight(): Viewport height is 707
+
+2018-09-24 10:44:53 - [MESSAGE][PASSED] - Viewport height is 707
+
+2018-09-24 10:44:53 - [TEST_STEP][PASSED] - Statement - viewportWidth = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(): Viewport width is 1040
+
+2018-09-24 10:44:53 - [MESSAGE][PASSED] - Viewport width is 1040
+
+2018-09-24 10:44:53 - [TEST_STEP][PASSED] - Statement - println("Browser size: " + viewportWidth + "X" + viewportHeight): null
+
+2018-09-24 10:44:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.staging.birchbox.com' successfully
+
+2018-09-24 10:44:55 - [MESSAGE][PASSED] - Navigate to 'https://www.staging.birchbox.com' successfully
+
+2018-09-24 10:44:55 - [TEST_STEP][PASSED] - Statement - If (viewportWidth > 1000): Viewport is set to new size with width = 400 and height = 900
+
+2018-09-24 10:44:55 - [TEST_STEP][PASSED] - setViewPortSize: Viewport is set to new size with width = 400 and height = 900
+
+2018-09-24 10:44:56 - [MESSAGE][PASSED] - Viewport is set to new size with width = 400 and height = 900
+
+2018-09-24 10:44:56 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-09-24 10:45:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-09-24 10:45:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/svg_icon__close_popup' is clicked on
+
+2018-09-24 10:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/svg_icon__close_popup' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup)" classname="Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup)" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Shop Makeup Brushes and Makeup/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;svg class=&quot;icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9&quot; viewBox=&quot;0 0 23 19&quot; fill=&quot;none&quot; stroke=&quot;#1f1f1f&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;square&quot;>...&lt;/svg> is not clickable at point (29, 32). Other element would receive the click: &lt;path d=&quot;M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z&quot; transform=&quot;translate(-191.594 -370.594)&quot;>&lt;/path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536614250757.run(Script1536614250757.groovy:654)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-24 10:45:07 - [TEST_CASE][FAILED] - Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup): Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Shop Makeup Brushes and Makeup/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536614250757.run(Script1536614250757.groovy:654)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-24 10:45:07 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-09-24 10:45:07 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-09-24 10:45:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:09 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/svg_ 2018 Birchbox_icon__svg__' is clickable
+
+2018-09-24 10:45:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/svg_ 2018 Birchbox_icon__svg__' is clickable
+
+2018-09-24 10:45:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Whats New/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Whats New/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:10 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Whats New/div_Makeup' is clicked on
+
+2018-09-24 10:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Whats New/div_Makeup' is clicked on
+
+2018-09-24 10:45:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Whats New/div_Complexion' is clicked on
+
+2018-09-24 10:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Whats New/div_Complexion' is clicked on
+
+2018-09-24 10:45:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:45:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:45:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tinted Moisturizers  BBCC Cr' is visible
+
+2018-09-24 10:45:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tinted Moisturizers  BBCC Cr' is visible
+
+2018-09-24 10:45:13 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tinted Moisturizers  BBCC Cr' is clickable
+
+2018-09-24 10:45:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tinted Moisturizers  BBCC Cr' is clickable
+
+2018-09-24 10:45:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tinted Moisturizers  BBCC Cr' is clicked on
+
+2018-09-24 10:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Tinted Moisturizers  BBCC Cr' is clicked on
+
+2018-09-24 10:45:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Tinted Moisturizers  BBCC/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Tinted Moisturizers  BBCC/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:18 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:18 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Tinted Moisturizers  BBCC/div_Makeup' is clicked on
+
+2018-09-24 10:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Tinted Moisturizers  BBCC/div_Makeup' is clicked on
+
+2018-09-24 10:45:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:45:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:45:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Tinted Moisturizers  BBCC/div_Complexion' is clicked on
+
+2018-09-24 10:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Tinted Moisturizers  BBCC/div_Complexion' is clicked on
+
+2018-09-24 10:45:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:45:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:45:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Foundations' is visible
+
+2018-09-24 10:45:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Foundations' is visible
+
+2018-09-24 10:45:20 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Foundations' is clickable
+
+2018-09-24 10:45:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Foundations' is clickable
+
+2018-09-24 10:45:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Foundations' is clicked on
+
+2018-09-24 10:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Foundations' is clicked on
+
+2018-09-24 10:45:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Foundations/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Foundations/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:23 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Foundations/div_Makeup' is clicked on
+
+2018-09-24 10:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Foundations/div_Makeup' is clicked on
+
+2018-09-24 10:45:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Foundations/div_Complexion' is clicked on
+
+2018-09-24 10:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Foundations/div_Complexion' is clicked on
+
+2018-09-24 10:45:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:45:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:45:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Concealers' is visible
+
+2018-09-24 10:45:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Concealers' is visible
+
+2018-09-24 10:45:25 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Concealers' is clickable
+
+2018-09-24 10:45:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Concealers' is clickable
+
+2018-09-24 10:45:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Concealers' is clicked on
+
+2018-09-24 10:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Concealers' is clicked on
+
+2018-09-24 10:45:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Concealers/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Concealers/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:28 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Concealers/div_Makeup' is clicked on
+
+2018-09-24 10:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Concealers/div_Makeup' is clicked on
+
+2018-09-24 10:45:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Concealers/div_Complexion' is clicked on
+
+2018-09-24 10:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Concealers/div_Complexion' is clicked on
+
+2018-09-24 10:45:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:45:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:45:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Primers' is visible
+
+2018-09-24 10:45:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Primers' is visible
+
+2018-09-24 10:45:30 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Primers' is clickable
+
+2018-09-24 10:45:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Primers' is clickable
+
+2018-09-24 10:45:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Primers' is clicked on
+
+2018-09-24 10:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Primers' is clicked on
+
+2018-09-24 10:45:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Primers/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Primers/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Primers/div_Makeup' is clicked on
+
+2018-09-24 10:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Primers/div_Makeup' is clicked on
+
+2018-09-24 10:45:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Makeup Primers/div_Complexion' is visible
+
+2018-09-24 10:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Makeup Primers/div_Complexion' is visible
+
+2018-09-24 10:45:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Makeup Primers/div_Complexion' is clickable
+
+2018-09-24 10:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Makeup Primers/div_Complexion' is clickable
+
+2018-09-24 10:45:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Primers/div_Complexion' is clicked on
+
+2018-09-24 10:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Primers/div_Complexion' is clicked on
+
+2018-09-24 10:45:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Color-Correcting' is visible
+
+2018-09-24 10:45:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Color-Correcting' is visible
+
+2018-09-24 10:45:35 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Color-Correcting' is clickable
+
+2018-09-24 10:45:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Color-Correcting' is clickable
+
+2018-09-24 10:45:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Color-Correcting' is clicked on
+
+2018-09-24 10:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Color-Correcting' is clicked on
+
+2018-09-24 10:45:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Color-Correcting Makeup/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Color-Correcting Makeup/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:38 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Color-Correcting Makeup/div_Makeup' is clicked on
+
+2018-09-24 10:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Color-Correcting Makeup/div_Makeup' is clicked on
+
+2018-09-24 10:45:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Color-Correcting Makeup/div_Complexion' is clicked on
+
+2018-09-24 10:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Color-Correcting Makeup/div_Complexion' is clicked on
+
+2018-09-24 10:45:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Setting Sprays  Powders' is visible
+
+2018-09-24 10:45:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Setting Sprays  Powders' is visible
+
+2018-09-24 10:45:40 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Setting Sprays  Powders' is clickable
+
+2018-09-24 10:45:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Setting Sprays  Powders' is clickable
+
+2018-09-24 10:45:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Setting Sprays  Powders' is clicked on
+
+2018-09-24 10:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Setting Sprays  Powders' is clicked on
+
+2018-09-24 10:45:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Setting Sprays and/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Setting Sprays and/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:43 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Setting Sprays and/div_Makeup' is clicked on
+
+2018-09-24 10:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Setting Sprays and/div_Makeup' is clicked on
+
+2018-09-24 10:45:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Setting Sprays and/div_Complexion' is clicked on
+
+2018-09-24 10:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Setting Sprays and/div_Complexion' is clicked on
+
+2018-09-24 10:45:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:45:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:45:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Complexion Sets  Palettes' is visible
+
+2018-09-24 10:45:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Complexion Sets  Palettes' is visible
+
+2018-09-24 10:45:45 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Complexion Sets  Palettes' is clickable
+
+2018-09-24 10:45:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Complexion Sets  Palettes' is clickable
+
+2018-09-24 10:45:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Complexion Sets  Palettes' is clicked on
+
+2018-09-24 10:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Complexion Sets  Palettes' is clicked on
+
+2018-09-24 10:45:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Complexion Sets  M/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Complexion Sets  M/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Complexion Sets  M/div_Makeup' is clicked on
+
+2018-09-24 10:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Complexion Sets  M/div_Makeup' is clicked on
+
+2018-09-24 10:45:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Complexion Sets  M/div_Eye' is clicked on
+
+2018-09-24 10:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Complexion Sets  M/div_Eye' is clicked on
+
+2018-09-24 10:45:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Mascaras' is visible
+
+2018-09-24 10:45:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Mascaras' is visible
+
+2018-09-24 10:45:49 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Mascaras' is clickable
+
+2018-09-24 10:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Mascaras' is clickable
+
+2018-09-24 10:45:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Mascaras' is clicked on
+
+2018-09-24 10:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Mascaras' is clicked on
+
+2018-09-24 10:45:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Mascaras/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Mascaras/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:52 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Mascaras/div_Makeup' is clicked on
+
+2018-09-24 10:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Mascaras/div_Makeup' is clicked on
+
+2018-09-24 10:45:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Mascaras/div_Eye' is clicked on
+
+2018-09-24 10:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Mascaras/div_Eye' is clicked on
+
+2018-09-24 10:45:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:45:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:45:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Brows' is visible
+
+2018-09-24 10:45:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Brows' is visible
+
+2018-09-24 10:45:54 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Brows' is clickable
+
+2018-09-24 10:45:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Brows' is clickable
+
+2018-09-24 10:45:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Brows' is clicked on
+
+2018-09-24 10:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Brows' is clicked on
+
+2018-09-24 10:45:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:45:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:45:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Brow Makeup/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Brow Makeup/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:45:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:45:57 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:45:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Brow Makeup/div_Makeup' is clicked on
+
+2018-09-24 10:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Brow Makeup/div_Makeup' is clicked on
+
+2018-09-24 10:45:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Brow Makeup/div_Eye' is clicked on
+
+2018-09-24 10:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Brow Makeup/div_Eye' is clicked on
+
+2018-09-24 10:45:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:45:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:45:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeliners' is visible
+
+2018-09-24 10:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeliners' is visible
+
+2018-09-24 10:45:59 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeliners' is clickable
+
+2018-09-24 10:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:45:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeliners' is clickable
+
+2018-09-24 10:45:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeliners' is clicked on
+
+2018-09-24 10:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeliners' is clicked on
+
+2018-09-24 10:45:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eyeliners/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eyeliners/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:01 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eyeliners/div_Makeup' is clicked on
+
+2018-09-24 10:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eyeliners/div_Makeup' is clicked on
+
+2018-09-24 10:46:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eyeliners/div_Eye' is clicked on
+
+2018-09-24 10:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eyeliners/div_Eye' is clicked on
+
+2018-09-24 10:46:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeshadows' is visible
+
+2018-09-24 10:46:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeshadows' is visible
+
+2018-09-24 10:46:03 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeshadows' is clickable
+
+2018-09-24 10:46:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeshadows' is clickable
+
+2018-09-24 10:46:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeshadows' is clicked on
+
+2018-09-24 10:46:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eyeshadows' is clicked on
+
+2018-09-24 10:46:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eyeshadows/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eyeshadows/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:06 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eyeshadows/div_Makeup' is clicked on
+
+2018-09-24 10:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eyeshadows/div_Makeup' is clicked on
+
+2018-09-24 10:46:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eyeshadows/div_Eye' is clicked on
+
+2018-09-24 10:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eyeshadows/div_Eye' is clicked on
+
+2018-09-24 10:46:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:08 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Primers' is clickable
+
+2018-09-24 10:46:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Primers' is clickable
+
+2018-09-24 10:46:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Primers' is visible
+
+2018-09-24 10:46:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Primers' is visible
+
+2018-09-24 10:46:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Primers' is clicked on
+
+2018-09-24 10:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Primers' is clicked on
+
+2018-09-24 10:46:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eye Primers/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eye Primers/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:10 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eye Primers/div_Makeup' is clicked on
+
+2018-09-24 10:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eye Primers/div_Makeup' is clicked on
+
+2018-09-24 10:46:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eye Primers/div_Eye' is clicked on
+
+2018-09-24 10:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eye Primers/div_Eye' is clicked on
+
+2018-09-24 10:46:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lash Primers  Treatments' is visible
+
+2018-09-24 10:46:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lash Primers  Treatments' is visible
+
+2018-09-24 10:46:12 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lash Primers  Treatments' is clickable
+
+2018-09-24 10:46:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lash Primers  Treatments' is clickable
+
+2018-09-24 10:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lash Primers  Treatments' is clicked on
+
+2018-09-24 10:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lash Primers  Treatments' is clicked on
+
+2018-09-24 10:46:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lash Primers  Lash Treatm/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lash Primers  Lash Treatm/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:15 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lash Primers  Lash Treatm/div_Makeup' is clicked on
+
+2018-09-24 10:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lash Primers  Lash Treatm/div_Makeup' is clicked on
+
+2018-09-24 10:46:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lash Primers  Lash Treatm/div_Eye' is clicked on
+
+2018-09-24 10:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lash Primers  Lash Treatm/div_Eye' is clicked on
+
+2018-09-24 10:46:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_False Lashes' is visible
+
+2018-09-24 10:46:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_False Lashes' is visible
+
+2018-09-24 10:46:16 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_False Lashes' is clickable
+
+2018-09-24 10:46:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_False Lashes' is clickable
+
+2018-09-24 10:46:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_False Lashes' is clicked on
+
+2018-09-24 10:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_False Lashes' is clicked on
+
+2018-09-24 10:46:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop False Lashes/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop False Lashes/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:19 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop False Lashes/div_Makeup' is clicked on
+
+2018-09-24 10:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop False Lashes/div_Makeup' is clicked on
+
+2018-09-24 10:46:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop False Lashes/div_Eye' is clicked on
+
+2018-09-24 10:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop False Lashes/div_Eye' is clicked on
+
+2018-09-24 10:46:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Sets  Palettes' is visible
+
+2018-09-24 10:46:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Sets  Palettes' is visible
+
+2018-09-24 10:46:21 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Sets  Palettes' is clickable
+
+2018-09-24 10:46:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Sets  Palettes' is clickable
+
+2018-09-24 10:46:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Sets  Palettes' is clicked on
+
+2018-09-24 10:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Sets  Palettes' is clicked on
+
+2018-09-24 10:46:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eye Makeup Sets and Makeu/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eye Makeup Sets and Makeu/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:24 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eye Makeup Sets and Makeu/div_Makeup' is clicked on
+
+2018-09-24 10:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eye Makeup Sets and Makeu/div_Makeup' is clicked on
+
+2018-09-24 10:46:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Eye Makeup Sets and Makeu/div_Cheek' is clicked on
+
+2018-09-24 10:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Eye Makeup Sets and Makeu/div_Cheek' is clicked on
+
+2018-09-24 10:46:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Blushes' is visible
+
+2018-09-24 10:46:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Blushes' is visible
+
+2018-09-24 10:46:25 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Blushes' is clickable
+
+2018-09-24 10:46:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Blushes' is clickable
+
+2018-09-24 10:46:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Blushes' is clicked on
+
+2018-09-24 10:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Blushes' is clicked on
+
+2018-09-24 10:46:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Blush/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Blush/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:28 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Blush/div_Makeup' is clicked on
+
+2018-09-24 10:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Blush/div_Makeup' is clicked on
+
+2018-09-24 10:46:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Blush/div_Cheek' is clicked on
+
+2018-09-24 10:46:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Blush/div_Cheek' is clicked on
+
+2018-09-24 10:46:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Bronzers' is visible
+
+2018-09-24 10:46:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Bronzers' is visible
+
+2018-09-24 10:46:30 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Bronzers' is clickable
+
+2018-09-24 10:46:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Bronzers' is clickable
+
+2018-09-24 10:46:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Bronzers' is clicked on
+
+2018-09-24 10:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Bronzers' is clicked on
+
+2018-09-24 10:46:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Bronzer/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Bronzer/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:32 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Bronzer/div_Makeup' is clicked on
+
+2018-09-24 10:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Bronzer/div_Makeup' is clicked on
+
+2018-09-24 10:46:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Bronzer/div_Cheek' is clicked on
+
+2018-09-24 10:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Bronzer/div_Cheek' is clicked on
+
+2018-09-24 10:46:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Highlighters' is visible
+
+2018-09-24 10:46:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Highlighters' is visible
+
+2018-09-24 10:46:34 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Highlighters' is clickable
+
+2018-09-24 10:46:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Highlighters' is clickable
+
+2018-09-24 10:46:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Highlighters' is clicked on
+
+2018-09-24 10:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Highlighters' is clicked on
+
+2018-09-24 10:46:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Highlighter/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Highlighter/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:37 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Highlighter/div_Makeup' is clicked on
+
+2018-09-24 10:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Highlighter/div_Makeup' is clicked on
+
+2018-09-24 10:46:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Highlighter/div_Cheek' is clicked on
+
+2018-09-24 10:46:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Highlighter/div_Cheek' is clicked on
+
+2018-09-24 10:46:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Contouring' is visible
+
+2018-09-24 10:46:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Contouring' is visible
+
+2018-09-24 10:46:39 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Contouring' is clickable
+
+2018-09-24 10:46:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Contouring' is clickable
+
+2018-09-24 10:46:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Contouring' is clicked on
+
+2018-09-24 10:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Contouring' is clicked on
+
+2018-09-24 10:46:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Contouring Makeup/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Contouring Makeup/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:41 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Contouring Makeup/div_Makeup' is clicked on
+
+2018-09-24 10:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Contouring Makeup/div_Makeup' is clicked on
+
+2018-09-24 10:46:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Contouring Makeup/div_Cheek' is clicked on
+
+2018-09-24 10:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Contouring Makeup/div_Cheek' is clicked on
+
+2018-09-24 10:46:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cheek Sets  Palettes' is visible
+
+2018-09-24 10:46:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cheek Sets  Palettes' is visible
+
+2018-09-24 10:46:44 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cheek Sets  Palettes' is clickable
+
+2018-09-24 10:46:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cheek Sets  Palettes' is clickable
+
+2018-09-24 10:46:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cheek Sets  Palettes' is clicked on
+
+2018-09-24 10:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Cheek Sets  Palettes' is clicked on
+
+2018-09-24 10:46:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Cheek Palettes and/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Cheek Palettes and/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Cheek Palettes and/div_Makeup' is clicked on
+
+2018-09-24 10:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Cheek Palettes and/div_Makeup' is clicked on
+
+2018-09-24 10:46:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Cheek Palettes and/div_Cheek' is clicked on
+
+2018-09-24 10:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Cheek Palettes and/div_Cheek' is clicked on
+
+2018-09-24 10:46:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is visible
+
+2018-09-24 10:46:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is visible
+
+2018-09-24 10:46:49 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is clickable
+
+2018-09-24 10:46:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is clickable
+
+2018-09-24 10:46:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is clicked on
+
+2018-09-24 10:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is clicked on
+
+2018-09-24 10:46:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:52 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Makeup' is clicked on
+
+2018-09-24 10:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Makeup' is clicked on
+
+2018-09-24 10:46:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Lip' is clicked on
+
+2018-09-24 10:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Lip' is clicked on
+
+2018-09-24 10:46:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lipsticks (3)' is visible
+
+2018-09-24 10:46:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lipsticks (3)' is visible
+
+2018-09-24 10:46:54 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lipsticks (3)' is clickable
+
+2018-09-24 10:46:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lipsticks (3)' is clickable
+
+2018-09-24 10:46:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lipsticks (3)' is clicked on
+
+2018-09-24 10:46:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lipsticks (3)' is clicked on
+
+2018-09-24 10:46:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:46:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:46:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lipsticks/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lipsticks/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:46:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:46:57 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:46:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lipsticks/div_Makeup' is clicked on
+
+2018-09-24 10:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lipsticks/div_Makeup' is clicked on
+
+2018-09-24 10:46:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lipsticks/div_Lip' is clicked on
+
+2018-09-24 10:46:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lipsticks/div_Lip' is clicked on
+
+2018-09-24 10:46:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:46:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:46:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Balms' is visible
+
+2018-09-24 10:46:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Balms' is visible
+
+2018-09-24 10:46:59 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Balms' is clickable
+
+2018-09-24 10:46:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Balms' is clickable
+
+2018-09-24 10:46:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Balms' is clicked on
+
+2018-09-24 10:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Balms' is clicked on
+
+2018-09-24 10:46:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:47:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:47:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Tinted Lip Balms/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Tinted Lip Balms/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:01 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Tinted Lip Balms/div_Makeup' is clicked on
+
+2018-09-24 10:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Tinted Lip Balms/div_Makeup' is clicked on
+
+2018-09-24 10:47:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Tinted Lip Balms/div_Lip' is clicked on
+
+2018-09-24 10:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Tinted Lip Balms/div_Lip' is clicked on
+
+2018-09-24 10:47:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:47:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:47:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Glosses' is visible
+
+2018-09-24 10:47:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Glosses' is visible
+
+2018-09-24 10:47:03 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Glosses' is clickable
+
+2018-09-24 10:47:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Glosses' is clickable
+
+2018-09-24 10:47:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Glosses' is clicked on
+
+2018-09-24 10:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Glosses' is clicked on
+
+2018-09-24 10:47:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:47:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:47:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Glosses/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Glosses/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:06 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Glosses/div_Makeup' is clicked on
+
+2018-09-24 10:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Glosses/div_Makeup' is clicked on
+
+2018-09-24 10:47:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Glosses/div_Lip' is clicked on
+
+2018-09-24 10:47:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Glosses/div_Lip' is clicked on
+
+2018-09-24 10:47:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:47:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:47:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments' is visible
+
+2018-09-24 10:47:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments' is visible
+
+2018-09-24 10:47:08 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments' is clickable
+
+2018-09-24 10:47:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments' is clickable
+
+2018-09-24 10:47:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments' is clicked on
+
+2018-09-24 10:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments' is clicked on
+
+2018-09-24 10:47:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:47:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:47:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:11 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/div_Makeup' is clicked on
+
+2018-09-24 10:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/div_Makeup' is clicked on
+
+2018-09-24 10:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/div_Lip' is clicked on
+
+2018-09-24 10:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Masks  Lip Treatments/div_Lip' is clicked on
+
+2018-09-24 10:47:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:47:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:47:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Liners' is visible
+
+2018-09-24 10:47:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Liners' is visible
+
+2018-09-24 10:47:13 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Liners' is clickable
+
+2018-09-24 10:47:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Liners' is clickable
+
+2018-09-24 10:47:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Liners' is clicked on
+
+2018-09-24 10:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Liners' is clicked on
+
+2018-09-24 10:47:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:47:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:47:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Liner Makeup/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Liner Makeup/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:16 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Liner Makeup/div_Makeup' is clicked on
+
+2018-09-24 10:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Liner Makeup/div_Makeup' is clicked on
+
+2018-09-24 10:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Liner Makeup/div_Lip' is clicked on
+
+2018-09-24 10:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Liner Makeup/div_Lip' is clicked on
+
+2018-09-24 10:47:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:47:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:47:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is visible
+
+2018-09-24 10:47:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is visible
+
+2018-09-24 10:47:17 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is clickable
+
+2018-09-24 10:47:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is clickable
+
+2018-09-24 10:47:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is clicked on
+
+2018-09-24 10:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip  Cheek Multi-taskers' is clicked on
+
+2018-09-24 10:47:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:47:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:47:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:20 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Makeup' is clicked on
+
+2018-09-24 10:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Makeup' is clicked on
+
+2018-09-24 10:47:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Lip' is clicked on
+
+2018-09-24 10:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip and Cheek Multi-taske/div_Lip' is clicked on
+
+2018-09-24 10:47:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Sets  Palettes' is visible
+
+2018-09-24 10:47:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Sets  Palettes' is visible
+
+2018-09-24 10:47:22 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Sets  Palettes' is clickable
+
+2018-09-24 10:47:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Sets  Palettes' is clickable
+
+2018-09-24 10:47:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Sets  Palettes' is clicked on
+
+2018-09-24 10:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Sets  Palettes' is clicked on
+
+2018-09-24 10:47:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:47:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:47:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Makeup Sets  Lip Pale/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Makeup Sets  Lip Pale/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:25 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Makeup Sets  Lip Pale/div_Makeup' is clicked on
+
+2018-09-24 10:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Makeup Sets  Lip Pale/div_Makeup' is clicked on
+
+2018-09-24 10:47:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:47:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:47:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Lip Makeup Sets  Lip Pale/a_Best Sellers' is visible
+
+2018-09-24 10:47:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Lip Makeup Sets  Lip Pale/a_Best Sellers' is visible
+
+2018-09-24 10:47:26 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Lip Makeup Sets  Lip Pale/a_Best Sellers' is clickable
+
+2018-09-24 10:47:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Lip Makeup Sets  Lip Pale/a_Best Sellers' is clickable
+
+2018-09-24 10:47:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Lip Makeup Sets  Lip Pale/a_Best Sellers' is clicked on
+
+2018-09-24 10:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Lip Makeup Sets  Lip Pale/a_Best Sellers' is clicked on
+
+2018-09-24 10:47:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:47:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:47:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Best Sellers/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Best Sellers/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:29 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is clickable
+
+2018-09-24 10:47:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Best Sellers/div_Makeup' is clicked on
+
+2018-09-24 10:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Best Sellers/div_Makeup' is clicked on
+
+2018-09-24 10:47:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:47:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:47:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Makeup Best Sellers/a_Makeup Sets' is visible
+
+2018-09-24 10:47:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Makeup Best Sellers/a_Makeup Sets' is visible
+
+2018-09-24 10:47:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Best Sellers/a_Makeup Sets' is clicked on
+
+2018-09-24 10:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Best Sellers/a_Makeup Sets' is clicked on
+
+2018-09-24 10:47:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:47:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:47:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Sets/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Sets/svg_ 2018 Birchbox_icon__svg__' is clicked on
+
+2018-09-24 10:47:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Whats New/div_Makeup' is visible
+
+2018-09-24 10:47:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Sets/div_Makeup' is clicked on
+
+2018-09-24 10:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Sets/div_Makeup' is clicked on
+
+2018-09-24 10:47:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Shop Makeup Sets/a_Makeup Brushes  Tools' is visible
+
+2018-09-24 10:47:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Makeup Sets/a_Makeup Brushes  Tools' is visible
+
+2018-09-24 10:47:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Shop Makeup Sets/a_Makeup Brushes  Tools' is clickable
+
+2018-09-24 10:47:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '90'
+
+2018-09-24 10:47:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Shop Makeup Sets/a_Makeup Brushes  Tools' is clickable
+
+2018-09-24 10:47:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Shop Makeup Sets/a_Makeup Brushes  Tools' is clicked on
+
+2018-09-24 10:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shop Makeup Sets/a_Makeup Brushes  Tools' is clicked on
+
+2018-09-24 10:47:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:47:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:47:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Shop Makeup Brushes and Makeup/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+
+2018-09-24 10:47:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Shop Makeup Brushes and Makeup/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)]]></system-out>
+         <system-err><![CDATA[2018-09-24 10:45:07 - [TEST_CASE][FAILED] - Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup): Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Shop Makeup Brushes and Makeup/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536614250757.run(Script1536614250757.groovy:654)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Hair)" classname="Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Hair)" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;svg class=&quot;icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9&quot; viewBox=&quot;0 0 23 19&quot; fill=&quot;none&quot; stroke=&quot;#1f1f1f&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;square&quot;>...&lt;/svg> is not clickable at point (29, 32). Other element would receive the click: &lt;path d=&quot;M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z&quot; transform=&quot;translate(-191.594 -370.594)&quot;>&lt;/path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536614341005.run(Script1536614341005.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-24 10:47:36 - [TEST_CASE][FAILED] - Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Hair): Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Hair) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536614341005.run(Script1536614341005.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-24 10:47:36 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-09-24 10:47:36 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-09-24 10:47:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-24 10:47:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 10:47:38 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+
+2018-09-24 10:47:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)]]></system-out>
+         <system-err><![CDATA[2018-09-24 10:47:36 - [TEST_CASE][FAILED] - Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Hair): Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Hair) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536614341005.run(Script1536614341005.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin)" classname="Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin)" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;svg class=&quot;icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9&quot; viewBox=&quot;0 0 23 19&quot; fill=&quot;none&quot; stroke=&quot;#1f1f1f&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;square&quot;>...&lt;/svg> is not clickable at point (29, 32). Other element would receive the click: &lt;path d=&quot;M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z&quot; transform=&quot;translate(-191.594 -370.594)&quot;>&lt;/path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536617663530.run(Script1536617663530.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-24 10:47:38 - [TEST_CASE][FAILED] - Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin): Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536617663530.run(Script1536617663530.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-24 10:47:38 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-09-24 10:47:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-09-24 10:47:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-24 10:47:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 10:47:39 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+
+2018-09-24 10:47:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)]]></system-out>
+         <system-err><![CDATA[2018-09-24 10:47:38 - [TEST_CASE][FAILED] - Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin): Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Beauty Box Subscription for Wo/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536617663530.run(Script1536617663530.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-24 10:44:48 - [TEST_SUITE][FAILED] - Full Sanity Test (US, mobile): Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Shop Makeup Brushes and Makeup/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536614250757.run(Script1536614250757.groovy:654)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-24 10:44:48 - [TEST_SUITE][FAILED] - Full Sanity Test (US, mobile): Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup) FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Shop Makeup Brushes and Makeup/svg_ 2018 Birchbox_icon__svg__' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <svg class="icon__svg___cc1CR utilities__block___2NUBz utilities__fullWidth___3kUCi utilities__fullHeight___NZTu9" viewBox="0 0 23 19" fill="none" stroke="#1f1f1f" stroke-width="2" stroke-linecap="square">...</svg> is not clickable at point (29, 32). Other element would receive the click: <path d="M203.4,372.722l-2.122-2.121-9.677,9.677,2.121,2.121Z" transform="translate(-191.594 -370.594)"></path>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PLEMKTPLACE-08', ip: '10.241.184.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\vbrooks\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d6a51926c696fecfd49b168f74744b73)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536614250757.run(Script1536614250757.groovy:654)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537811086249.run(TempTestSuite1537811086249.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

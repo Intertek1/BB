@@ -29,6 +29,10 @@ WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for W
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Cleansers'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Cleansers'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Cleansers'))
 
 WebUI.delay(2)
@@ -59,6 +63,10 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Makeup Removers and Face
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Tools'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Tools'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Tools'))
 
 WebUI.delay(2)
@@ -71,6 +79,12 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Skincare Tools/div_Treat
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Exfoliators  Scrubs'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Exfoliators  Scrubs'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Exfoliators  Scrubs'))
 
 WebUI.delay(2)
@@ -82,6 +96,12 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Exfoliators/div_Skin'))
 WebUI.click(findTestObject('Object Repository/Page_Shop Exfoliators/div_Treat'))
 
 WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Face Masks  Sheet Masks'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Face Masks  Sheet Masks'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Face Masks  Sheet Masks'))
 
@@ -111,6 +131,10 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Facial Peels/div_Treat')
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Toners  Mists'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Toners  Mists'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Toners  Mists'))
 
 WebUI.delay(2)
@@ -121,6 +145,12 @@ WebUI.click(findTestObject('Object Repository/Page_Toners  Mists/div_Skin'))
 
 WebUI.click(findTestObject('Object Repository/Page_Toners  Mists/div_Treat'))
 
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Face Serums'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Face Serums'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Face Serums'))
 
 WebUI.delay(2)
@@ -129,9 +159,21 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Face Serums/svg_ 2018 Bi
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Face Serums/div_Skin'))
 
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Shop Face Serums/div_Treat'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Shop Face Serums/div_Treat'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Shop Face Serums/div_Treat'))
 
 WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Acne  Oil Treatments'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Acne  Oil Treatments'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Acne  Oil Treatments'))
 
@@ -142,6 +184,12 @@ WebUI.click(findTestObject('Page_Shop Acne Treatments and Oily/svg_ 2018 Birchbo
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_Skin'))
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Acne Treatments and Oily/div_Treat'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments'))
+
+WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments'))
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Eye Masks  Treatments'))
 
@@ -155,6 +203,12 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Eye Masks and Eye Treatm
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments_1'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments_1'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lip Masks  Treatments_1'))
 
 WebUI.delay(2)
@@ -166,6 +220,10 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Lip Masks  Lip Treatment
 WebUI.click(findTestObject('Object Repository/Page_Shop Lip Masks  Lip Treatments/div_Treat'))
 
 WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Essences'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Essences'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Essences'))
 
@@ -179,6 +237,10 @@ WebUI.click(findTestObject('Object Repository/Page_Essences/div_Moisturize'))
 
 WebUI.delay(1)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Moisturizers'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Moisturizers'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Moisturizers'))
 
 WebUI.delay(2)
@@ -190,6 +252,10 @@ WebUI.click(findTestObject('Object Repository/Page_Shop Moisturizers/div_Skin'))
 WebUI.click(findTestObject('Object Repository/Page_Shop Moisturizers/div_Moisturize'))
 
 WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Face Oils'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Face Oils'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Face Oils'))
 

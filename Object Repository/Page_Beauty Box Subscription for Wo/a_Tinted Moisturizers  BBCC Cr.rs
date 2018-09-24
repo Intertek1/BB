@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Tinted Moisturizers &amp; BB/CC Creams' or . = 'Tinted Moisturizers &amp; BB/CC Creams')]</value>
+         <value>//a[(text() = 'Tinted Moisturizers &amp; BB/CC Creams' or . = 'Tinted Moisturizers &amp; BB/CC Creams')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

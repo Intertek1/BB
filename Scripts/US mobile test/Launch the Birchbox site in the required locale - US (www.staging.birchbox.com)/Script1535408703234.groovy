@@ -25,8 +25,6 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 'Browser launches only once and will remain open throughout all the tests'
 WebUI.openBrowser('')
 
-WebUI.acceptAlert()
-
 viewportHeight = WebUI.getViewportHeight()
 
 viewportWidth = WebUI.getViewportWidth()
