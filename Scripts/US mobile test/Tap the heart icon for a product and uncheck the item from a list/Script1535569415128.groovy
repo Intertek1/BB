@@ -186,7 +186,7 @@ WebUI.delay(5)
 
 not_run: WebUI.click(findTestObject('Object Repository/Page_Beauty Protector Protect  Deta/svg_icon__svg___cc1CR utilitie_3'))
 
-WebUI.verifyTextPresent('0 Products', false, FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.verifyTextPresent('0 Products', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/span_All Lists'))
 

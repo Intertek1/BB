@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Enable this line only when running this test case by itself'
-WebUI.callTestCase(findTestCase('US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)'), 
+not_run: WebUI.callTestCase(findTestCase('US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__profile (1)'))

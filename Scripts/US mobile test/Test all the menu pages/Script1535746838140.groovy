@@ -27,17 +27,17 @@ WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__hambur
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Collections (3)'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
-WebUI.verifyTextPresent('Limited Edition Boxes', false)
+WebUI.verifyTextPresent('Limited Edition Boxes', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Birchbox Discovery Kits', false)
+WebUI.verifyTextPresent('Birchbox Discovery Kits', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Birchbox Exclusives', false)
+WebUI.verifyTextPresent('Birchbox Exclusives', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Best-Sellers', false)
+WebUI.verifyTextPresent('Best-Sellers', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Gifts with Purchase', false)
+WebUI.verifyTextPresent('Gifts with Purchase', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Main (2)'), 0)
 
@@ -47,15 +47,15 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box 
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Makeup (4)'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
-WebUI.verifyTextPresent('Complexion', false)
+WebUI.verifyTextPresent('Complexion', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Eye', false)
+WebUI.verifyTextPresent('Eye', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Cheek', false)
+WebUI.verifyTextPresent('Cheek', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Lip', false)
+WebUI.verifyTextPresent('Lip', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Main (2)'), 0)
 
@@ -65,15 +65,15 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box 
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Hair (2)'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
-WebUI.verifyTextPresent('Wash & Care', false)
+WebUI.verifyTextPresent('Wash & Care', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Treat', false)
+WebUI.verifyTextPresent('Treat', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Style', false)
+WebUI.verifyTextPresent('Style', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Extend', false)
+WebUI.verifyTextPresent('Extend', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Main (2)'), 0)
 
@@ -83,15 +83,15 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box 
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Skin'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
-WebUI.verifyTextPresent('Cleanse', false)
+WebUI.verifyTextPresent('Cleanse', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Treat', false)
+WebUI.verifyTextPresent('Treat', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Moisturize', false)
+WebUI.verifyTextPresent('Moisturize', false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('Protect', false)
+WebUI.verifyTextPresent('Protect', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Main (2)'), 0)
 
@@ -101,7 +101,7 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box 
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_The Mag'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.verifyTextPresent('Visit the Mag', false)
 

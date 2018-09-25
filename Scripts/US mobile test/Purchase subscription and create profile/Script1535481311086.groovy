@@ -286,6 +286,8 @@ WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for W
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Yes please (2)'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/div_Beauty-related tools (2)'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Beauty-related tools (2)'))

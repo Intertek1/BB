@@ -46,6 +46,12 @@ WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for W
 
 WebUI.scrollToElement(findTestObject('Object Repository/Page_Montale Dark Purple Eau de Par/div_Read More (1)'), 0)
 
+WebUI.delay(1)
+
+'Select the Favorite icon (heart)'
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Montale Dark Purple Eau de Par/svg_icon__svg___cc1CR utilitie_1'), 
+    0)
+
 'Select the Favorite icon (heart)'
 WebUI.click(findTestObject('Object Repository/Page_Montale Dark Purple Eau de Par/svg_icon__svg___cc1CR utilitie_1'))
 
