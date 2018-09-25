@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Toners &amp; Mists' or . = 'Toners &amp; Mists')]</value>
+         <value>//a[@href = '/category/7575' and (text() = 'Toners &amp; Mists' or . = 'Toners &amp; Mists')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>StyledLink-khUpca fgCKOS</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

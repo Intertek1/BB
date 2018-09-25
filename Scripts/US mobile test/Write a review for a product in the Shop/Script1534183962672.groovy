@@ -20,14 +20,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Enable this line only when running this test case by itself'
-not_run: WebUI.callTestCase(findTestCase('US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)'), 
+WebUI.callTestCase(findTestCase('US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__hamburger_menu (1)'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/a_Visit Birchbox Grooming'))
+WebUI.waitForElementVisible(findTestObject('Page_Beauty Box Subscription for Wo/a_Visit Birchbox Grooming'), 0)
+
+WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/a_Visit Birchbox Grooming'), 0)
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/a_Visit Birchbox Grooming'))
 

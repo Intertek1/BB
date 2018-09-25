@@ -77,9 +77,17 @@ WebUI.waitForElementClickable(findTestObject('Page_Shop Best Sellers/svg_ 2018 B
 
 WebUI.click(findTestObject('Page_Shop Best Sellers/svg_ 2018 Birchbox_icon__svg__'))
 
+WebUI.delay(1)
+
+WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__hamburger_menu (1)'), 0)
+
+WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__hamburger_menu (1)'))
+
 WebUI.waitForElementVisible(findTestObject('Page_Beauty Box Subscription for Wo/div_Collections (4)'), 0)
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_Collections (4)'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Shop Best Sellers/div_Gifts with Purchase'))
 
