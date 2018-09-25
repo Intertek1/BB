@@ -51,14 +51,20 @@ WebUI.comment('Scroll the page to get the Add To Cart button to display')
 'Scroll to the top of the page'
 WebUI.scrollToPosition(0, 0)
 
+'A delay of about 10 seconds is necessary, otherwise the following error displays:\r\nUnable to click on object \'Object Repository/Page_Spornette Little Wonder/div_Add to Cart8.00 (1)\''
+WebUI.delay(3)
+
 'Scroll to the bottom of the page'
 WebUI.scrollToPosition(0, 99999)
+
+'A delay of about 10 seconds is necessary, otherwise the following error displays:\r\nUnable to click on object \'Object Repository/Page_Spornette Little Wonder/div_Add to Cart8.00 (1)\''
+WebUI.delay(3)
 
 'Scroll to the top of the page'
 WebUI.scrollToPosition(0, 0)
 
-'A delay of about 4 seconds is necessary, otherwise the following error displays:\r\nUnable to click on object \'Object Repository/Page_Spornette Little Wonder/div_Add to Cart8.00 (1)\''
-WebUI.delay(8)
+'A delay of about 10 seconds is necessary, otherwise the following error displays:\r\nUnable to click on object \'Object Repository/Page_Spornette Little Wonder/div_Add to Cart8.00 (1)\''
+WebUI.delay(3)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Spornette Little Wonder/div_Add to Cart8.00 (1)'), 0)
 
@@ -68,10 +74,16 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Spornette L
 WebUI.click(findTestObject('Object Repository/Page_Spornette Little Wonder/div_Add to Cart8.00 (1)'))
 
 'A delay is necessary here, otherwise an error will occur when attempting to select the Birchbox button'
-WebUI.delay(10)
+WebUI.delay(5)
 
 'Select the Birchbox icon'
-WebUI.click(findTestObject('Page_Spornette Little Wonder/svg_icon__svg___Birchbox_icon'))
+WebUI.waitForElementVisible(findTestObject('Page_Spornette Little Wonder/svg_ 2018 Birchbox_icon__svg__'), 0)
+
+'Select the Birchbox icon'
+WebUI.waitForElementClickable(findTestObject('Page_Spornette Little Wonder/svg_ 2018 Birchbox_icon__svg__'), 0)
+
+'Select the Birchbox icon'
+WebUI.click(findTestObject('Page_Spornette Little Wonder/svg_ 2018 Birchbox_icon__svg__'))
 
 WebUI.delay(5)
 

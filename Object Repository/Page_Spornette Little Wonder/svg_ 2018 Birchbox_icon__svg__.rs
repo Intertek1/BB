@@ -3,11 +3,11 @@
    <description></description>
    <name>svg_ 2018 Birchbox_icon__svg__</name>
    <tag></tag>
-   <elementGuidId>f175a463-2ab1-45d9-bc8c-cae69e945980</elementGuidId>
+   <elementGuidId>faf9351a-7058-4c40-b431-3dd59d86173e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@viewBox = '0 0 102 113']</value>
+         <value>//*[@viewBox = '0 0 102 113' and @fill = '#1f1f1f']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,7 +34,7 @@
       <value>0 0 102 113</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>fill</name>
       <type>Main</type>

@@ -1,0 +1,451 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+"Full Sanity Test (US, mobile)",Chrome 69.0.3497.100,,2018-09-25 09:24:39,2018-09-25 09:31:56,7m - 17.041s,FAILED
+,,,,,,
+Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com),Chrome 69.0.3497.100,,2018-09-25 09:24:39,2018-09-25 09:24:59,20.053s,PASSED
+openBrowser,Chrome 69.0.3497.100,Browser launches only once and will remain open throughout all the tests,2018-09-25 09:24:40,2018-09-25 09:24:45,4.746s,PASSED
+Statement - viewportHeight = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportHeight(),Chrome 69.0.3497.100,,2018-09-25 09:24:45,2018-09-25 09:24:45,0.039s,PASSED
+Statement - viewportWidth = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 69.0.3497.100,,2018-09-25 09:24:45,2018-09-25 09:24:45,0.024s,PASSED
+"Statement - println(""Browser size: "" + viewportWidth + ""X"" + viewportHeight)",Chrome 69.0.3497.100,,2018-09-25 09:24:45,2018-09-25 09:24:45,0.031s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,Navigate to the Birchbox staging website,2018-09-25 09:24:45,2018-09-25 09:24:48,3.006s,PASSED
+Statement - If (viewportWidth > 1000),Chrome 69.0.3497.100,"Check the browser size to see if the test is running on either a desktop or mobile device.  It's not perfect, but generally a PC browser will open much wider",2018-09-25 09:24:48,2018-09-25 09:24:49,1.216s,PASSED
+delay,Chrome 69.0.3497.100,"A 15% discount popup displays only once roughly 5 seconds after the web page loads for the first time, so the script will give it time to display here",2018-09-25 09:24:49,2018-09-25 09:24:59,10.036s,PASSED
+click,Chrome 69.0.3497.100,Dismiss the popup,2018-09-25 09:24:59,2018-09-25 09:24:59,0.194s,PASSED
+,,,,,,
+Test Cases/US mobile test/Purchase subscription and create profile,Chrome 69.0.3497.100,,2018-09-25 09:24:59,2018-09-25 09:26:29,1m - 29.663s,PASSED
+Statement - date = new java.util.Date(),Chrome 69.0.3497.100,Store the current date and time,2018-09-25 09:25:00,2018-09-25 09:25:00,0.006s,PASSED
+"Statement - datetimeMMddyyhhmm = date.format(""MMddyyhhmm"")",Chrome 69.0.3497.100,Store the date and time in the format month/day/year/hour/minute,2018-09-25 09:25:00,2018-09-25 09:25:00,0.005s,PASSED
+"Statement - uniqueUSEmail = ""birchbox.intertek+us"" + datetimeMMddyyhhmm + ""@gmail.com""",Chrome 69.0.3497.100,Create a unique email address using the formatted date and time,2018-09-25 09:25:00,2018-09-25 09:25:00,0.005s,PASSED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test suite by itself,2018-09-25 09:25:00,2018-09-25 09:25:00,0.001s,NOT_RUN
+click,Chrome 69.0.3497.100,Tap the hamburger menu,2018-09-25 09:25:00,2018-09-25 09:25:01,0.409s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:25:01,2018-09-25 09:25:01,0.007s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,"Tap ""Subscribe""",2018-09-25 09:25:01,2018-09-25 09:25:01,0.225s,PASSED
+click,Chrome 69.0.3497.100,"Tap ""Subscribe""",2018-09-25 09:25:01,2018-09-25 09:25:01,0.690s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:25:01,2018-09-25 09:25:03,2.006s,PASSED
+waitForElementVisible,Chrome 69.0.3497.100,"Tap the button that starts with the words ""Get your""",2018-09-25 09:25:03,2018-09-25 09:25:04,0.164s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,"Tap the button that starts with the words ""Get your""",2018-09-25 09:25:04,2018-09-25 09:25:04,0.061s,PASSED
+click,Chrome 69.0.3497.100,"Tap the button that starts with the words ""Get your""",2018-09-25 09:25:04,2018-09-25 09:25:04,0.375s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:25:04,2018-09-25 09:25:08,4.001s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:25:08,2018-09-25 09:25:08,0.000s,PASSED
+click,Chrome 69.0.3497.100,"Causes the UI to display the password requirements before entering the password in the form, otherwise the following error occurs: ""invalid element state: Element is not currently interactable and may not be manipulated.""",2018-09-25 09:25:08,2018-09-25 09:25:09,0.415s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:09,2018-09-25 09:25:09,0.355s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:09,2018-09-25 09:25:09,0.281s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:09,2018-09-25 09:25:10,0.903s,PASSED
+setEncryptedText,Chrome 69.0.3497.100,,2018-09-25 09:25:10,2018-09-25 09:25:11,0.493s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:25:11,2018-09-25 09:25:11,0.325s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:25:11,2018-09-25 09:25:11,0.001s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:11,2018-09-25 09:25:17,5.862s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:17,2018-09-25 09:25:17,0.333s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:17,2018-09-25 09:25:18,0.595s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:18,2018-09-25 09:25:18,0.402s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:18,2018-09-25 09:25:18,0.342s,PASSED
+selectOptionByValue,Chrome 69.0.3497.100,,2018-09-25 09:25:18,2018-09-25 09:25:19,0.692s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:19,2018-09-25 09:25:19,0.275s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:19,2018-09-25 09:25:20,0.506s,PASSED
+selectOptionByValue,Chrome 69.0.3497.100,,2018-09-25 09:25:20,2018-09-25 09:25:20,0.411s,PASSED
+selectOptionByValue,Chrome 69.0.3497.100,,2018-09-25 09:25:20,2018-09-25 09:25:21,0.555s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:25:21,2018-09-25 09:25:21,0.268s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:25:21,2018-09-25 09:25:21,0.367s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:25:21,2018-09-25 09:25:24,3.000s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:25:24,2018-09-25 09:25:24,0.000s,PASSED
+"Statement - dollar_amount = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Beauty Box Subscription for Wo/div_checkout_total), STOP_ON_FAILURE)",Chrome 69.0.3497.100,"Get the string for the total amount and store it into the variable ""dollar_amount""",2018-09-25 09:25:24,2018-09-25 09:25:38,13.924s,PASSED
+verifyMatch,Chrome 69.0.3497.100,Check the string against a regex for the correct U.S. currency format,2018-09-25 09:25:38,2018-09-25 09:25:38,0.010s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:25:38,2018-09-25 09:25:39,1.001s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:25:39,2018-09-25 09:25:40,0.098s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:25:40,2018-09-25 09:25:40,0.267s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:25:40,2018-09-25 09:25:42,2.005s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:25:42,2018-09-25 09:25:42,0.000s,PASSED
+Statement - While (!(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Beauty Box Subscription for Wo/a_Go to your profile (2)))),Chrome 69.0.3497.100,This while loop doesn't seem to work,2018-09-25 09:25:42,2018-09-25 09:25:42,0.000s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:25:42,2018-09-25 09:25:57,15.002s,PASSED
+verifyElementNotPresent,Chrome 69.0.3497.100,Can't get this statement to work properly to catch a 503 error,2018-09-25 09:25:57,2018-09-25 09:25:57,0.166s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:25:57,2018-09-25 09:25:57,0.386s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:25:57,2018-09-25 09:25:59,1.205s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:25:59,2018-09-25 09:25:59,0.342s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:25:59,2018-09-25 09:25:59,0.496s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:25:59,2018-09-25 09:26:00,0.198s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:00,2018-09-25 09:26:00,0.288s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:00,2018-09-25 09:26:00,0.456s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:00,2018-09-25 09:26:01,0.377s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:01,2018-09-25 09:26:01,0.305s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:01,2018-09-25 09:26:01,0.132s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:01,2018-09-25 09:26:01,0.261s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:01,2018-09-25 09:26:02,0.259s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:02,2018-09-25 09:26:02,0.318s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:02,2018-09-25 09:26:02,0.220s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:02,2018-09-25 09:26:02,0.035s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:02,2018-09-25 09:26:03,0.456s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:03,2018-09-25 09:26:03,0.252s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:03,2018-09-25 09:26:03,0.303s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:03,2018-09-25 09:26:03,0.097s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:03,2018-09-25 09:26:04,0.346s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:04,2018-09-25 09:26:04,0.154s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:04,2018-09-25 09:26:04,0.378s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:04,2018-09-25 09:26:04,0.154s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:04,2018-09-25 09:26:05,0.322s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:05,2018-09-25 09:26:05,0.282s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:05,2018-09-25 09:26:05,0.032s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:05,2018-09-25 09:26:05,0.241s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:05,2018-09-25 09:26:05,0.151s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:05,2018-09-25 09:26:06,0.424s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:06,2018-09-25 09:26:06,0.289s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:06,2018-09-25 09:26:06,0.030s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:06,2018-09-25 09:26:06,0.226s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:06,2018-09-25 09:26:07,0.236s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:07,2018-09-25 09:26:07,0.225s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:07,2018-09-25 09:26:07,0.224s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:07,2018-09-25 09:26:07,0.032s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:07,2018-09-25 09:26:08,0.760s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:08,2018-09-25 09:26:08,0.232s,PASSED
+verifyElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:08,2018-09-25 09:26:08,0.215s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:08,2018-09-25 09:26:09,0.727s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:09,2018-09-25 09:26:09,0.299s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:09,2018-09-25 09:26:09,0.156s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:09,2018-09-25 09:26:10,0.269s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:10,2018-09-25 09:26:10,0.061s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:10,2018-09-25 09:26:10,0.190s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:10,2018-09-25 09:26:10,0.177s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:10,2018-09-25 09:26:10,0.271s,PASSED
+verifyElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:10,2018-09-25 09:26:11,0.116s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:11,2018-09-25 09:26:11,0.401s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:11,2018-09-25 09:26:11,0.102s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:11,2018-09-25 09:26:11,0.316s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:11,2018-09-25 09:26:12,0.254s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:12,2018-09-25 09:26:12,0.243s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:12,2018-09-25 09:26:12,0.258s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:12,2018-09-25 09:26:12,0.228s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:12,2018-09-25 09:26:13,0.168s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:13,2018-09-25 09:26:13,0.335s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:26:13,2018-09-25 09:26:14,1.001s,PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-09-25 09:26:14,2018-09-25 09:26:14,0.051s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:14,2018-09-25 09:26:14,0.027s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:14,2018-09-25 09:26:14,0.134s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:14,2018-09-25 09:26:14,0.190s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:14,2018-09-25 09:26:15,0.245s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:15,2018-09-25 09:26:15,0.270s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:15,2018-09-25 09:26:15,0.020s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:15,2018-09-25 09:26:15,0.218s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:15,2018-09-25 09:26:15,0.253s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:15,2018-09-25 09:26:15,0.168s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:15,2018-09-25 09:26:16,0.241s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:26:16,2018-09-25 09:26:18,2.001s,PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-09-25 09:26:18,2018-09-25 09:26:18,0.058s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:18,2018-09-25 09:26:18,0.036s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:18,2018-09-25 09:26:18,0.156s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:18,2018-09-25 09:26:18,0.109s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:18,2018-09-25 09:26:18,0.352s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:18,2018-09-25 09:26:19,0.304s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:19,2018-09-25 09:26:19,0.190s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:19,2018-09-25 09:26:19,0.179s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:19,2018-09-25 09:26:19,0.021s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:19,2018-09-25 09:26:19,0.383s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:19,2018-09-25 09:26:20,0.298s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:20,2018-09-25 09:26:20,0.202s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:26:20,2018-09-25 09:26:20,0.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:20,2018-09-25 09:26:20,0.332s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:20,2018-09-25 09:26:20,0.085s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:20,2018-09-25 09:26:21,0.456s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:21,2018-09-25 09:26:21,0.216s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:21,2018-09-25 09:26:21,0.302s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:21,2018-09-25 09:26:22,0.126s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:22,2018-09-25 09:26:22,0.305s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:22,2018-09-25 09:26:22,0.365s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:22,2018-09-25 09:26:23,0.458s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:23,2018-09-25 09:26:23,0.226s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:23,2018-09-25 09:26:23,0.024s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:23,2018-09-25 09:26:23,0.309s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:23,2018-09-25 09:26:24,0.312s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:24,2018-09-25 09:26:24,0.288s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:24,2018-09-25 09:26:24,0.101s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:24,2018-09-25 09:26:24,0.225s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:24,2018-09-25 09:26:25,0.380s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:25,2018-09-25 09:26:25,0.155s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:25,2018-09-25 09:26:25,0.269s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:25,2018-09-25 09:26:25,0.036s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:25,2018-09-25 09:26:25,0.172s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:25,2018-09-25 09:26:25,0.277s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:25,2018-09-25 09:26:26,0.231s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:26,2018-09-25 09:26:26,0.154s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:26,2018-09-25 09:26:26,0.073s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:26,2018-09-25 09:26:26,0.152s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:26,2018-09-25 09:26:26,0.231s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:26,2018-09-25 09:26:27,0.389s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:27,2018-09-25 09:26:27,0.218s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:27,2018-09-25 09:26:27,0.038s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:27,2018-09-25 09:26:27,0.229s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:27,2018-09-25 09:26:27,0.055s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:27,2018-09-25 09:26:27,0.306s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:27,2018-09-25 09:26:28,0.164s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:28,2018-09-25 09:26:28,0.327s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,Select the Birchbox button to return to the home screen,2018-09-25 09:26:28,2018-09-25 09:26:28,0.165s,PASSED
+click,Chrome 69.0.3497.100,Select the Birchbox button to return to the home screen,2018-09-25 09:26:28,2018-09-25 09:26:29,0.675s,PASSED
+,,,,,,
+Test Cases/US mobile test/Add a regular full sized item to your cart and place an order,Chrome 69.0.3497.100,,2018-09-25 09:26:29,2018-09-25 09:29:05,2m - 36.473s,PASSED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:26:29,2018-09-25 09:26:29,0.001s,NOT_RUN
+click,Chrome 69.0.3497.100,Select the hamburger menu,2018-09-25 09:26:29,2018-09-25 09:26:31,1.667s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:26:31,2018-09-25 09:26:34,3.001s,PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-09-25 09:26:34,2018-09-25 09:26:34,0.085s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:34,2018-09-25 09:26:34,0.280s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:34,2018-09-25 09:26:35,0.881s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:35,2018-09-25 09:26:36,0.589s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:26:36,2018-09-25 09:26:37,1.001s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:26:37,2018-09-25 09:26:37,0.075s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:26:37,2018-09-25 09:26:39,2.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:39,2018-09-25 09:26:39,0.329s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:39,2018-09-25 09:26:43,3.366s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:26:43,2018-09-25 09:26:43,0.000s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,Scroll to the top of the page,2018-09-25 09:26:43,2018-09-25 09:26:43,0.225s,PASSED
+delay,Chrome 69.0.3497.100,"A delay of about 10 seconds is necessary, otherwise the following error displays:
+Unable to click on object 'Object Repository/Page_Spornette Little Wonder/div_Add to Cart8.00 (1)'",2018-09-25 09:26:43,2018-09-25 09:26:46,3.000s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,Scroll to the bottom of the page,2018-09-25 09:26:46,2018-09-25 09:26:46,0.011s,PASSED
+delay,Chrome 69.0.3497.100,"A delay of about 10 seconds is necessary, otherwise the following error displays:
+Unable to click on object 'Object Repository/Page_Spornette Little Wonder/div_Add to Cart8.00 (1)'",2018-09-25 09:26:46,2018-09-25 09:26:49,3.002s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,Scroll to the top of the page,2018-09-25 09:26:49,2018-09-25 09:26:49,0.008s,PASSED
+delay,Chrome 69.0.3497.100,"A delay of about 10 seconds is necessary, otherwise the following error displays:
+Unable to click on object 'Object Repository/Page_Spornette Little Wonder/div_Add to Cart8.00 (1)'",2018-09-25 09:26:49,2018-09-25 09:26:52,3.000s,PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-09-25 09:26:52,2018-09-25 09:26:52,0.072s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:26:52,2018-09-25 09:26:52,0.061s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:26:52,2018-09-25 09:26:52,0.310s,PASSED
+delay,Chrome 69.0.3497.100,"A delay is necessary here, otherwise an error will occur when attempting to select the Birchbox button",2018-09-25 09:26:52,2018-09-25 09:26:57,5.002s,PASSED
+waitForElementVisible,Chrome 69.0.3497.100,Select the Birchbox icon,2018-09-25 09:26:57,2018-09-25 09:26:57,0.075s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,Select the Birchbox icon,2018-09-25 09:26:57,2018-09-25 09:26:57,0.036s,PASSED
+click,Chrome 69.0.3497.100,Select the Birchbox icon,2018-09-25 09:26:57,2018-09-25 09:26:58,0.700s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:26:58,2018-09-25 09:27:03,5.000s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:27:03,2018-09-25 09:27:06,2.516s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:27:06,2018-09-25 09:27:16,10.002s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-09-25 09:27:16,2018-09-25 09:29:05,1m - 49.718s,PASSED
+,,,,,,
+Test Cases/US mobile test/Add a configurable item and place an order,Chrome 69.0.3497.100,,2018-09-25 09:29:05,2018-09-25 09:29:09,3.473s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:29:06,2018-09-25 09:29:06,0.001s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:06,2018-09-25 09:29:09,3.001s,PASSED
+click,Chrome 69.0.3497.100,Tap the hamburger menu,2018-09-25 09:29:09,2018-09-25 09:29:09,0.081s,FAILED
+,,,,,,
+Test Cases/US mobile test/Remove an item from the cart,Chrome 69.0.3497.100,,2018-09-25 09:29:09,2018-09-25 09:29:09,0.458s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test suite by itself,2018-09-25 09:29:09,2018-09-25 09:29:09,0.001s,NOT_RUN
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:29:09,2018-09-25 09:29:09,0.101s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:09,2018-09-25 09:29:09,0.071s,FAILED
+,,,,,,
+Test Cases/US mobile test/Log in as a subscriber with existing boxes and navigate to Boxes,Chrome 69.0.3497.100,"All boxes show in the gallery view with correct labels.  ""Review Samples"" should appear next to latest box if there are any samples left to review.",2018-09-25 09:29:09,2018-09-25 09:29:10,0.328s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:29:10,2018-09-25 09:29:10,0.001s,NOT_RUN
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:10,2018-09-25 09:29:10,0.120s,FAILED
+,,,,,,
+Test Cases/US mobile test/Search for a product from the menu and add a product to existing list from within the product page,Chrome 69.0.3497.100,,2018-09-25 09:29:10,2018-09-25 09:29:12,2.454s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:29:10,2018-09-25 09:29:10,0.000s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:10,2018-09-25 09:29:12,2.001s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,Tap the search icon,2018-09-25 09:29:12,2018-09-25 09:29:12,0.071s,PASSED
+click,Chrome 69.0.3497.100,Tap the search icon,2018-09-25 09:29:12,2018-09-25 09:29:12,0.068s,FAILED
+,,,,,,
+Test Cases/US mobile test/Tap Men or Women tab,Chrome 69.0.3497.100,,2018-09-25 09:29:12,2018-09-25 09:29:23,10.809s,PASSED
+Statement - date = new java.util.Date(),Chrome 69.0.3497.100,Store the current date and time,2018-09-25 09:29:12,2018-09-25 09:29:12,0.001s,NOT_RUN
+"Statement - datetimeMMddyyhhmm = date.format(""MMddyyhhmm"")",Chrome 69.0.3497.100,Store the date and time in the format month/day/year/hour/minute,2018-09-25 09:29:12,2018-09-25 09:29:12,0.000s,NOT_RUN
+"Statement - uniqueUSEmail = ""birchbox.intertek+us"" + datetimeMMddyyhhmm + ""@gmail.com""",Chrome 69.0.3497.100,Create a unique email address using the formatted date and time,2018-09-25 09:29:12,2018-09-25 09:29:12,0.000s,NOT_RUN
+openBrowser,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:29:12,2018-09-25 09:29:12,0.002s,NOT_RUN
+setViewPortSize,Chrome 69.0.3497.100,Enable this line only when running this test case by itself on a PC,2018-09-25 09:29:12,2018-09-25 09:29:12,0.001s,NOT_RUN
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-25 09:29:12,2018-09-25 09:29:14,1.786s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:14,2018-09-25 09:29:18,3.563s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:18,2018-09-25 09:29:20,1.956s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:20,2018-09-25 09:29:22,2.015s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-25 09:29:22,2018-09-25 09:29:22,0.043s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:29:22,2018-09-25 09:29:22,0.033s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:22,2018-09-25 09:29:22,0.231s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:22,2018-09-25 09:29:23,0.871s,PASSED
+,,,,,,
+Test Cases/US mobile test/Tap the heart icon for a product and uncheck the item from a list,Chrome 69.0.3497.100,Item is removed from list and heart icon is unfilled,2018-09-25 09:29:23,2018-09-25 09:30:34,1m - 11.050s,PASSED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:29:24,2018-09-25 09:29:24,0.010s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:24,2018-09-25 09:29:26,2.003s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:26,2018-09-25 09:29:26,0.505s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:26,2018-09-25 09:29:28,2.002s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:29:28,2018-09-25 09:29:28,0.186s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:28,2018-09-25 09:29:29,0.313s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:29,2018-09-25 09:29:31,2.000s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:29:31,2018-09-25 09:29:31,0.100s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:31,2018-09-25 09:29:31,0.350s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:31,2018-09-25 09:29:33,2.002s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:29:33,2018-09-25 09:29:33,0.000s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,,2018-09-25 09:29:33,2018-09-25 09:29:33,0.059s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:33,2018-09-25 09:29:35,2.000s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,,2018-09-25 09:29:35,2018-09-25 09:29:35,0.079s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:35,2018-09-25 09:29:37,2.000s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,,2018-09-25 09:29:37,2018-09-25 09:29:37,0.031s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:37,2018-09-25 09:29:39,2.000s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:29:39,2018-09-25 09:29:39,0.124s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:39,2018-09-25 09:29:40,0.882s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:40,2018-09-25 09:29:42,2.001s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,,2018-09-25 09:29:42,2018-09-25 09:29:43,0.825s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:29:43,2018-09-25 09:29:43,0.252s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:29:43,2018-09-25 09:29:44,0.612s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:44,2018-09-25 09:29:49,5.000s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Beauty Box Subscription for Wo/div_Email Address (3)), 5, OPTIONAL))",Chrome 69.0.3497.100,If the user is not logged in,2018-09-25 09:29:49,2018-09-25 09:29:57,8.208s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:29:57,2018-09-25 09:30:01,4.003s,PASSED
+verifyElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:01,2018-09-25 09:30:01,0.084s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:01,2018-09-25 09:30:01,0.304s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:01,2018-09-25 09:30:03,2.000s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-25 09:30:03,2018-09-25 09:30:03,0.007s,PASSED
+setText,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:30:03,2018-09-25 09:30:03,0.001s,NOT_RUN
+setEncryptedText,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:30:03,2018-09-25 09:30:03,0.000s,NOT_RUN
+click,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:30:03,2018-09-25 09:30:03,0.000s,NOT_RUN
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:03,2018-09-25 09:30:03,0.001s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:03,2018-09-25 09:30:03,0.000s,NOT_RUN
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:03,2018-09-25 09:30:03,0.000s,NOT_RUN
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:03,2018-09-25 09:30:04,0.686s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:04,2018-09-25 09:30:06,2.001s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:06,2018-09-25 09:30:06,0.071s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:06,2018-09-25 09:30:07,0.381s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:07,2018-09-25 09:30:09,2.000s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:09,2018-09-25 09:30:09,0.062s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:09,2018-09-25 09:30:09,0.408s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:09,2018-09-25 09:30:11,2.000s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:11,2018-09-25 09:30:11,0.117s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:11,2018-09-25 09:30:12,0.583s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:12,2018-09-25 09:30:14,2.000s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:14,0.001s,PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:14,0.000s,NOT_RUN
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:14,0.000s,NOT_RUN
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:14,0.000s,NOT_RUN
+comment,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:14,0.000s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:14,0.620s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:14,0.000s,NOT_RUN
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:14,0.000s,NOT_RUN
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:14,0.000s,NOT_RUN
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:14,0.000s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:14,2018-09-25 09:30:17,3.001s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-25 09:30:17,2018-09-25 09:30:17,0.007s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,,2018-09-25 09:30:17,2018-09-25 09:30:17,0.004s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:17,2018-09-25 09:30:18,0.397s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:18,2018-09-25 09:30:20,2.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:20,2018-09-25 09:30:20,0.283s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:20,2018-09-25 09:30:21,0.467s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:21,2018-09-25 09:30:23,2.000s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:23,2018-09-25 09:30:23,0.028s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:23,2018-09-25 09:30:23,0.321s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:23,2018-09-25 09:30:25,2.001s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:25,2018-09-25 09:30:25,0.039s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:25,2018-09-25 09:30:25,0.351s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:25,2018-09-25 09:30:27,2.000s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:27,2018-09-25 09:30:27,0.031s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:27,2018-09-25 09:30:28,0.594s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:28,2018-09-25 09:30:33,5.000s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:33,2018-09-25 09:30:33,0.000s,NOT_RUN
+verifyTextPresent,Chrome 69.0.3497.100,,2018-09-25 09:30:33,2018-09-25 09:30:33,0.147s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:33,2018-09-25 09:30:33,0.370s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:33,2018-09-25 09:30:34,0.703s,PASSED
+,,,,,,
+Test Cases/US mobile test/Navigate to any list and add a product to cart,Chrome 69.0.3497.100,"Cart count updates and when cart is opened, product shows to be added",2018-09-25 09:30:34,2018-09-25 09:30:54,20.180s,ERROR
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:30:35,2018-09-25 09:30:35,0.013s,NOT_RUN
+callTestCase,Chrome 69.0.3497.100,,2018-09-25 09:30:35,2018-09-25 09:30:35,0.000s,NOT_RUN
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:35,2018-09-25 09:30:36,1.092s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:36,2018-09-25 09:30:37,1.057s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:37,2018-09-25 09:30:39,2.005s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:39,2018-09-25 09:30:39,0.238s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:39,2018-09-25 09:30:39,0.369s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:39,2018-09-25 09:30:41,2.000s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:41,2018-09-25 09:30:42,0.257s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:42,2018-09-25 09:30:42,0.487s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:42,2018-09-25 09:30:45,3.004s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,,2018-09-25 09:30:45,2018-09-25 09:30:45,0.031s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:45,2018-09-25 09:30:47,2.001s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,,2018-09-25 09:30:47,2018-09-25 09:30:47,0.015s,PASSED
+scrollToElement,Chrome 69.0.3497.100,,2018-09-25 09:30:47,2018-09-25 09:30:48,0.462s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:48,2018-09-25 09:30:48,0.153s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:48,2018-09-25 09:30:49,1.043s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:49,2018-09-25 09:30:53,4.000s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,,2018-09-25 09:30:53,2018-09-25 09:30:53,0.349s,PASSED
+verifyElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:53,2018-09-25 09:30:54,0.950s,PASSED
+,,,,,,
+"Test Cases/US mobile test/Account dashboard correctly reflects points, subscriber status, number of boxes",Chrome 69.0.3497.100,"All boxes show in the gallery view with correct labels. ""Review Samples"" should appear next to latest box if there are any samples left to review.",2018-09-25 09:30:56,2018-09-25 09:31:11,15.487s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:30:57,2018-09-25 09:30:57,0.001s,NOT_RUN
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:30:57,2018-09-25 09:30:57,0.000s,NOT_RUN
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:30:57,2018-09-25 09:30:57,0.155s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:30:57,2018-09-25 09:30:57,0.309s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:30:57,2018-09-25 09:30:59,2.002s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:30:59,2018-09-25 09:30:59,0.000s,PASSED
+Statement - string1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Beauty Box Subscription for Wo/span_(95 pts))),Chrome 69.0.3497.100,,2018-09-25 09:30:59,2018-09-25 09:30:59,0.294s,PASSED
+"Statement - string1 = string1.substring(1, string1.length() - 1)",Chrome 69.0.3497.100,Trim the parentheses off the ends of the string,2018-09-25 09:30:59,2018-09-25 09:31:00,0.048s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:00,2018-09-25 09:31:01,0.967s,PASSED
+Statement - string2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Beauty Box Subscription for Wo/div_95 pts)),Chrome 69.0.3497.100,,2018-09-25 09:31:01,2018-09-25 09:31:03,2.073s,PASSED
+Statement - Try,Chrome 69.0.3497.100,,2018-09-25 09:31:03,2018-09-25 09:31:03,0.002s,PASSED
+comment,Chrome 69.0.3497.100,,2018-09-25 09:31:03,2018-09-25 09:31:03,0.001s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:31:03,2018-09-25 09:31:03,0.036s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:03,2018-09-25 09:31:03,0.232s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:03,2018-09-25 09:31:04,0.769s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:31:04,2018-09-25 09:31:06,2.001s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:31:06,2018-09-25 09:31:06,0.207s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:06,2018-09-25 09:31:06,0.554s,PASSED
+verifyTextPresent,Chrome 69.0.3497.100,,2018-09-25 09:31:06,2018-09-25 09:31:11,4.750s,FAILED
+,,,,,,
+Test Cases/US mobile test/Share a link on Facebook or Twitter,Chrome 69.0.3497.100,The invite is displayed on the social media account,2018-09-25 09:31:11,2018-09-25 09:31:26,15.222s,PASSED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:12,2018-09-25 09:31:12,0.000s,NOT_RUN
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:12,2018-09-25 09:31:12,0.001s,NOT_RUN
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:12,2018-09-25 09:31:12,0.505s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:12,2018-09-25 09:31:13,0.952s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-25 09:31:13,2018-09-25 09:31:13,0.317s,PASSED
+scrollToPosition,Chrome 69.0.3497.100,,2018-09-25 09:31:13,2018-09-25 09:31:14,0.296s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:31:14,2018-09-25 09:31:15,1.001s,PASSED
+verifyElementClickable,Chrome 69.0.3497.100,Select the Twitter button,2018-09-25 09:31:15,2018-09-25 09:31:15,0.252s,PASSED
+click,Chrome 69.0.3497.100,Select the Twitter button,2018-09-25 09:31:15,2018-09-25 09:31:18,2.788s,PASSED
+switchToWindowIndex,Chrome 69.0.3497.100,Switch the focus to the Twitter popup,2018-09-25 09:31:18,2018-09-25 09:31:19,0.841s,PASSED
+Statement - Try,Chrome 69.0.3497.100,,2018-09-25 09:31:19,2018-09-25 09:31:20,1.872s,PASSED
+closeWindowIndex,Chrome 69.0.3497.100,Close the Twitter popup,2018-09-25 09:31:20,2018-09-25 09:31:22,1.323s,PASSED
+switchToWindowIndex,Chrome 69.0.3497.100,Switch the focus back to the main Birchbox site,2018-09-25 09:31:22,2018-09-25 09:31:22,0.499s,PASSED
+verifyElementClickable,Chrome 69.0.3497.100,Select the Facebook button,2018-09-25 09:31:22,2018-09-25 09:31:22,0.060s,PASSED
+click,Chrome 69.0.3497.100,Select the Facebook button,2018-09-25 09:31:22,2018-09-25 09:31:23,0.258s,PASSED
+switchToWindowIndex,Chrome 69.0.3497.100,Switch the focus to the Facebook popup,2018-09-25 09:31:23,2018-09-25 09:31:23,0.072s,PASSED
+Statement - Try,Chrome 69.0.3497.100,,2018-09-25 09:31:23,2018-09-25 09:31:26,3.558s,PASSED
+closeWindowIndex,Chrome 69.0.3497.100,Close the Facebook popup,2018-09-25 09:31:26,2018-09-25 09:31:26,0.215s,PASSED
+switchToWindowIndex,Chrome 69.0.3497.100,Switch the focus back to the main Birchbox site,2018-09-25 09:31:26,2018-09-25 09:31:26,0.006s,PASSED
+,,,,,,
+Test Cases/US mobile test/Send a link via email using the Invite Friends menu,Chrome 69.0.3497.100,,2018-09-25 09:31:26,2018-09-25 09:31:42,15.172s,PASSED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:27,2018-09-25 09:31:27,0.000s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:31:27,2018-09-25 09:31:27,0.000s,NOT_RUN
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:27,2018-09-25 09:31:27,0.000s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:31:27,2018-09-25 09:31:32,5.000s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:31:32,2018-09-25 09:31:32,0.043s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:32,2018-09-25 09:31:32,0.281s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:32,2018-09-25 09:31:33,0.779s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:31:33,2018-09-25 09:31:33,0.736s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-25 09:31:33,2018-09-25 09:31:34,0.453s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:34,2018-09-25 09:31:34,0.284s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:34,2018-09-25 09:31:35,0.457s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:31:35,2018-09-25 09:31:38,3.001s,PASSED
+verifyTextPresent,Chrome 69.0.3497.100,,2018-09-25 09:31:38,2018-09-25 09:31:38,0.182s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:38,2018-09-25 09:31:38,0.268s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-25 09:31:38,2018-09-25 09:31:41,3.000s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:41,2018-09-25 09:31:42,0.490s,PASSED
+,,,,,,
+Test Cases/US mobile test/Test all the menu pages,Chrome 69.0.3497.100,All screens load correctly and nav updates,2018-09-25 09:31:42,2018-09-25 09:31:44,2.644s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test suite by itself,2018-09-25 09:31:42,2018-09-25 09:31:42,0.001s,NOT_RUN
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:42,2018-09-25 09:31:44,1.710s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:44,2018-09-25 09:31:44,0.405s,FAILED
+,,,,,,
+Test Cases/US mobile test/Write a review for a product in the Shop,Chrome 69.0.3497.100,,2018-09-25 09:31:44,2018-09-25 09:31:47,2.476s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:45,2018-09-25 09:31:45,0.001s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:31:45,2018-09-25 09:31:47,2.000s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:47,2018-09-25 09:31:47,0.096s,FAILED
+,,,,,,
+Test Cases/US mobile test/Add a new credit card in Account Settings,Chrome 69.0.3497.100,,2018-09-25 09:31:47,2018-09-25 09:31:47,0.559s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:47,2018-09-25 09:31:47,0.000s,NOT_RUN
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:31:47,2018-09-25 09:31:47,0.074s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:47,2018-09-25 09:31:47,0.114s,FAILED
+,,,,,,
+Test Cases/US mobile test/Add a new address in Account Settings,Chrome 69.0.3497.100,,2018-09-25 09:31:47,2018-09-25 09:31:48,0.581s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:48,2018-09-25 09:31:48,0.001s,NOT_RUN
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:31:48,2018-09-25 09:31:48,0.063s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:48,2018-09-25 09:31:48,0.241s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Collections),Chrome 69.0.3497.100,All categories load and contain products,2018-09-25 09:31:48,2018-09-25 09:31:48,0.305s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:48,2018-09-25 09:31:48,0.001s,NOT_RUN
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:48,2018-09-25 09:31:48,0.088s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup),Chrome 69.0.3497.100,,2018-09-25 09:31:48,2018-09-25 09:31:51,3.038s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:49,2018-09-25 09:31:49,0.001s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:31:49,2018-09-25 09:31:51,2.000s,PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-09-25 09:31:51,2018-09-25 09:31:51,0.356s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:51,2018-09-25 09:31:51,0.146s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Hair),Chrome 69.0.3497.100,,2018-09-25 09:31:51,2018-09-25 09:31:54,2.628s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:52,2018-09-25 09:31:52,0.000s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:31:52,2018-09-25 09:31:54,2.000s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:54,2018-09-25 09:31:54,0.107s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin),Chrome 69.0.3497.100,,2018-09-25 09:31:54,2018-09-25 09:31:56,1.669s,FAILED
+callTestCase,Chrome 69.0.3497.100,Enable this line only when running this test case by itself,2018-09-25 09:31:54,2018-09-25 09:31:54,0.000s,NOT_RUN
+delay,Chrome 69.0.3497.100,,2018-09-25 09:31:54,2018-09-25 09:31:55,1.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-25 09:31:55,2018-09-25 09:31:56,0.127s,FAILED

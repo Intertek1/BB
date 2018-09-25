@@ -125,11 +125,13 @@ WebUI.delay(2)
 
 WebUI.comment('Test - Fill in profile as directed when you subscribed')
 
-while (!(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Go to your profile (2)'))) {
+'This while loop doesn\'t seem to work'
+not_run: while (!(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Go to your profile (2)'))) {
 }
 
-WebUI.delay(5)
+WebUI.delay(15)
 
+'Can\'t get this statement to work properly to catch a 503 error'
 WebUI.verifyElementNotPresent(findTestObject('Page_Birchbox Join the UKs 1 beauty/div_503Backend fetch failed'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Go to your profile (2)'))
@@ -269,6 +271,8 @@ WebUI.scrollToElement(findTestObject('Object Repository/Page_Beauty Box Subscrip
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Skincare (2)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Next (2)'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Anytime (2)'), 0)
 

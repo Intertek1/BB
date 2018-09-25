@@ -4,6 +4,12 @@
    <name>svg_icon__hamburger_menu (1)</name>
    <tag></tag>
    <elementGuidId>74048f26-5b64-459d-8458-23d23ff1cccf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@viewBox = '0 0 23 19' and @stroke = '#1f1f1f']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +41,7 @@
       <value>none</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>stroke</name>
       <type>Main</type>

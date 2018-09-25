@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Mally Beauty High-Shine Liquid Lipstick Pens - Heartbreaker</value>
+      <value>Mally Beauty High-Shine Liquid Lipstick Pens - Liipety Split</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

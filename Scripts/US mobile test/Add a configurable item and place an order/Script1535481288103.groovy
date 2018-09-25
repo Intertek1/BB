@@ -21,14 +21,20 @@ import internal.GlobalVariable as GlobalVariable
 
 //if (getSessionID() == null) {
 'Enable this line only when running this test case by itself'
-WebUI.callTestCase(findTestCase('US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)'), 
+not_run: WebUI.callTestCase(findTestCase('US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
+'Tap the hamburger menu'
+WebUI.waitForElementVisible(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__hamburger_menu (1)'), 0)
+
 //}
 'Tap the hamburger menu'
-WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/svg_icon__hamburger_menu (1) (1)'))
+WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__hamburger_menu (1)'), 0)
+
+'Tap the hamburger menu'
+WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__hamburger_menu (1)'))
 
 WebUI.delay(1)
 
@@ -80,7 +86,7 @@ WebUI.scrollToPosition(0, 600)
 
 WebUI.delay(2)
 
-WebUI.verifyTextPresent('Heartbreaker', false)
+WebUI.verifyTextPresent('Lipety Split', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -96,13 +102,17 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__checkout'))
 
-WebUI.delay(16)
+WebUI.delay(18)
 
 WebUI.callTestCase(findTestCase('1. Common script/Complete checkout (US)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('')
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__profile (1)'))
+
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Order History'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Order History'))
 
@@ -117,7 +127,7 @@ not_run: WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscript
 
 order_verification = WebUI.getText(findTestObject('Page_Beauty Box Subscription for Wo/div_Order_History_Mally Beauty High-Shine Li'))
 
-WebUI.verifyMatch(order_verification, 'Mally Beauty High-Shine Liquid Lipstick Pens - Heartbreaker', false)
+WebUI.verifyMatch(order_verification, 'Mally Beauty High-Shine Liquid Lipstick Pens - Lipety Split', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: WebUI.click(findTestObject('Object Repository/Page_Mally Beauty High-Shine Liquid/svg_icon__svg___cc1CR utilitie'))
 
