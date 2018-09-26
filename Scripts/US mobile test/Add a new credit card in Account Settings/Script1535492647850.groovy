@@ -36,6 +36,8 @@ if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Box Subscription for 
 
 WebUI.delay(2)
 
+WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__profile (1)'), 0)
+
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__profile (1)'))
 
 WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/div_Account Settings (1)'), 0)

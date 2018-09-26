@@ -4,7 +4,7 @@
    <name>Full Sanity Test (US, mobile)</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-25T15:02:59</lastRun>
+   <lastRun>2018-09-26T10:33:36</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>120</pageLoadTimeout>

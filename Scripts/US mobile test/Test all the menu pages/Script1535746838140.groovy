@@ -83,7 +83,7 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box 
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Skin'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.verifyTextPresent('Cleanse', false, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -109,8 +109,9 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box 
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/span_Main'))
 
-WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__svg___close_hamburger_menu'), 
-    5)
+WebUI.delay(1)
+
+WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/div_TopBar__CloseHamburgerMenu'), 5)
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_TopBar__CloseHamburgerMenu'))
 
