@@ -7,27 +7,27 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'LinkGroup__StyledLink-gFFnXB typography__copy13___2sIAt bLpdAf StyledLink-khUpca ddtewq' and (text() = 'Gifts with Purchase' or . = 'Gifts with Purchase')]</value>
+         <value>//a[@href = '/category/1464' and (text() = 'Gifts with Purchase' or . = 'Gifts with Purchase')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>LinkGroup__StyledLink-gFFnXB typography__copy13___2sIAt bLpdAf StyledLink-khUpca ddtewq</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

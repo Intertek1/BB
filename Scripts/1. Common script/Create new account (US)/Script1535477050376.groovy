@@ -35,38 +35,46 @@ WebUI.waitForElementVisible(findTestObject('Page_Beauty Box Subscription for Wo/
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/a_Sign Up (3)'))
 
-'If the script is running on a PC browser, this step will execute'
-if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Box Subscription for Wo/div_Password_PC browser'), 1, FailureHandling.OPTIONAL)) {
-    'Expand the password requirements'
-    WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_Password_PC browser'), FailureHandling.STOP_ON_FAILURE)
-}
-
-if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Protector Protect  Deta/div_Password_PC'), 1, FailureHandling.OPTIONAL)) {
-    'Expand the password requirements'
-    WebUI.click(findTestObject('Page_Beauty Protector Protect  Deta/div_Password_PC'), FailureHandling.STOP_ON_FAILURE)
-}
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Page_Beauty Box Subscription for Wo/input_firstName (5)'), 'Milton')
 
 WebUI.setText(findTestObject('Page_Beauty Box Subscription for Wo/input_lastName (5)'), 'Waddams')
 
-'If the script is running on a mobile browser, this step will execute'
-if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Box Subscription for Wo/div_Password (8)'), 1, FailureHandling.OPTIONAL)) {
+'If the script is running on a PC browser, this step will execute'
+if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Box Subscription for Wo/div_Password_PC browser'), 1, FailureHandling.OPTIONAL)) {
+    'Expand the password requirements'
+    WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_Password_PC browser'), FailureHandling.STOP_ON_FAILURE)
+} else if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Box Subscription for Wo/div_Password (8)'), 1, FailureHandling.OPTIONAL)) {
     'Expand the password requirements'
     WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_Password (8)'), FailureHandling.STOP_ON_FAILURE)
+} else {
+    'Expand the password requirements'
+    WebUI.click(findTestObject('Page_Montale Dark Purple Eau de Par/div_Password'), FailureHandling.STOP_ON_FAILURE)
 }
 
 WebUI.setText(findTestObject('Page_Beauty Box Subscription for Wo/input_emailAddress (5)'), uniqueUSEmail)
 
 'The script will enter the password into an element that is dependent upon whether it is run on a PC or mobile browser'
-if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Box Subscription for Wo/input_password (6)'), 1, FailureHandling.OPTIONAL)) {
-    WebUI.setEncryptedText(findTestObject('Page_Beauty Box Subscription for Wo/input_password (6)'), 'yrXHdmw+Di/576oxJz3/0g==')
-} else if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Protector Protect  Deta/input_Password_PC browser'), 1, 
-    FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Protector Protect  Deta/input_Password_PC browser'), 1, FailureHandling.OPTIONAL)) {
     WebUI.setEncryptedText(findTestObject('Page_Beauty Protector Protect  Deta/input_Password_PC browser'), 'yrXHdmw+Di/576oxJz3/0g==')
+} else if (WebUI.verifyElementPresent(findTestObject('Page_Montale Dark Purple Eau de Par/input_password'), 1, FailureHandling.OPTIONAL)) {
+    WebUI.setEncryptedText(findTestObject('Page_Montale Dark Purple Eau de Par/input_password'), 'yrXHdmw+Di/576oxJz3/0g==')
+
+    'Dismiss the keyboard so that the Sign Up button can be pressed'
+    Mobile.pressBack(FailureHandling.OPTIONAL)
+
+    'If the Add To Cart button is covering the Sign Up button, then dismiss it'
+    not_run: if (WebUI.verifyElementPresent(findTestObject('Page_Montale Dark Purple Eau de Par/div_Add to Cart120.00'), 
+        1, FailureHandling.OPTIONAL)) {
+        'Dismiss the Add to Cart button so that the Sign Up button can be pressed'
+        Mobile.pressBack(FailureHandling.OPTIONAL)
+    }
 } else {
-    WebUI.setEncryptedText(findTestObject('Page_Beauty Box Subscription for Wo/input_Password_PC'), 'yrXHdmw+Di/576oxJz3/0g==')
+    WebUI.setEncryptedText(findTestObject('Page_Beauty Box Subscription for Wo/input_password (6)'), 'yrXHdmw+Di/576oxJz3/0g==')
 }
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/button_Sign Up (3)'))
 

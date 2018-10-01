@@ -34,6 +34,11 @@ WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for W
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__profile (1)'))
 
+WebUI.delay(1)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Spread the Love Earn  in P'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Spread the Love Earn  in P'))
 
 WebUI.setText(findTestObject('Page_Beauty Box Subscription for Wo/input__tokenInput'), 'qptester@gmail.com')

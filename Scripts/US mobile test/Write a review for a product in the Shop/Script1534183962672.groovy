@@ -27,6 +27,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__hamburger_menu (1)'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Page_Beauty Box Subscription for Wo/a_Visit Birchbox Grooming'), 0)
 
 WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/a_Visit Birchbox Grooming'), 0)

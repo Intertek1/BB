@@ -36,7 +36,9 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box 
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Lip'))
 
-WebUI.delay(3)
+WebUI.delay(4)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lipsticks'), 0)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/a_Lipsticks'), 0)
 
@@ -82,16 +84,22 @@ not_run: WebUI.verifyTextPresent('Sweet Berry', false)
 
 WebUI.click(findTestObject('Object Repository/Page_Mally Beauty High-Shine Liquid/div_Add to Cart20.00'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.waitForElementVisible(findTestObject('Page_Mally Beauty High-Shine Liquid/svg_Log In_icon__svg___Birchbox PC browser'), 
     0)
 
+WebUI.waitForElementClickable(findTestObject('Page_Mally Beauty High-Shine Liquid/svg_Log In_icon__svg___Birchbox PC browser'), 
+    0)
+
 WebUI.click(findTestObject('Page_Mally Beauty High-Shine Liquid/svg_Log In_icon__svg___Birchbox PC browser'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.waitForElementVisible(findTestObject('Page_Beauty Box Subscription for Wo/svg_The Mag_icon__svg___checkout icon PC browser'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/svg_The Mag_icon__svg___checkout icon PC browser'), 
     0)
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_The Mag_icon__svg___checkout icon PC browser'))

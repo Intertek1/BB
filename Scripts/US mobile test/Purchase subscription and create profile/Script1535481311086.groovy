@@ -38,6 +38,11 @@ WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__hambur
 
 WebUI.comment('Test - Navigate to the subscription page and initiate a purchase')
 
+WebUI.delay(1)
+
+'Tap "Subscribe"'
+WebUI.waitForElementVisible(findTestObject('Page_Beauty Box Subscription for Wo/a_Join'), 0)
+
 'Tap "Subscribe"'
 WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/a_Join'), 0)
 
@@ -104,7 +109,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Beauty Box Subscription for
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/button_Review Your Order (2)'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.comment('Test - Check for correct sales tax calculation and currency symbol')
 
@@ -316,9 +321,13 @@ WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for W
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Other race ethnicity or an (2)'))
 
+WebUI.delay(1)
+
 WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/div_Under 36000 (2)'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Under 36000 (2)'))
+
+WebUI.delay(1)
 
 WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/div_I want lots of beauty samp (2)'), 
     0)

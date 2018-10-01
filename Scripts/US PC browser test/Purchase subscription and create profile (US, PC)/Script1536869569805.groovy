@@ -32,7 +32,7 @@ uniqueUSEmail = (('birchbox.intertek+us' + datetimeMMddyyhhmm) + '@gmail.com')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/a_Join (1)'))
+WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/a_Subscribe'))
 
 WebUI.delay(2)
 

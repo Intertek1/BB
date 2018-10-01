@@ -24,9 +24,11 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 not_run: WebUI.callTestCase(findTestCase('US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__profile (1)'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 'If the user is not logged in, this step will create a new account'
 if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Box Subscription for Wo/div_Email Address (3)'), 5, FailureHandling.OPTIONAL)) {

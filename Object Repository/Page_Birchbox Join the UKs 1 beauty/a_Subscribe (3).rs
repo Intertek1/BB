@@ -4,10 +4,16 @@
    <name>a_Subscribe (3)</name>
    <tag></tag>
    <elementGuidId>7b5163d5-cba5-413c-adaa-5b64e2f00925</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;Drawer__OuterDiv-fQULRK utilities__cover___WKDvY jxeJTN&quot;]/div[@class=&quot;Drawer__InnerDiv-QSCgb jfPdeQ&quot;]/div[@class=&quot;DrawerDiv-ihhGLG ZybrZ&quot;]/div[@class=&quot;TransitionContainer__NarrowScrollDiv-dvmQNx hDoneZ&quot;]/div[1]/div[1]/div[@class=&quot;NavDrawer__PrimaryNavDiv-eqSCkY fHeSne&quot;]/a[@class=&quot;NavButtonLink-domlco dIUJER StyledButton-gXzblK dNvZGn&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>NavButtonLink-domlco dIUJER StyledButton-gXzblK laMkYf</value>
+      <value>NavButtonLink-domlco dIUJER StyledButton-gXzblK dNvZGn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,24 +41,72 @@
       <value>/subscribe</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/subscribe</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Subscribe</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;Drawer__OuterDiv-fQULRK utilities__cover___WKDvY jxeJTN&quot;]/div[@class=&quot;Drawer__InnerDiv-QSCgb jfPdeQ&quot;]/div[@class=&quot;DrawerDiv-ihhGLG ZybrZ&quot;]/div[@class=&quot;TransitionContainer__NarrowScrollDiv-dvmQNx hDoneZ&quot;]/div[1]/div[1]/div[@class=&quot;NavDrawer__PrimaryNavDiv-eqSCkY fHeSne&quot;]/a[@class=&quot;NavButtonLink-domlco dIUJER StyledButton-gXzblK laMkYf&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;Drawer__OuterDiv-fQULRK utilities__cover___WKDvY jxeJTN&quot;]/div[@class=&quot;Drawer__InnerDiv-QSCgb jfPdeQ&quot;]/div[@class=&quot;DrawerDiv-ihhGLG ZybrZ&quot;]/div[@class=&quot;TransitionContainer__NarrowScrollDiv-dvmQNx hDoneZ&quot;]/div[1]/div[1]/div[@class=&quot;NavDrawer__PrimaryNavDiv-eqSCkY fHeSne&quot;]/a[@class=&quot;NavButtonLink-domlco dIUJER StyledButton-gXzblK dNvZGn&quot;]</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='root']/div/div[5]/div/div[2]/div[2]/div/div/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <value>//a[contains(text(),'Subscribe')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2018 Birchbox'])[1]/following::a[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms'])[1]/following::a[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Box'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>(//a[contains(@href, '/subscribe')])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[2]/div[2]/div/div/div/a</value>
+   </webElementXpaths>
 </WebElementEntity>

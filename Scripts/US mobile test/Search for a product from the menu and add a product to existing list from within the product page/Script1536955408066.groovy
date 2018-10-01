@@ -62,7 +62,12 @@ if (WebUI.verifyElementPresent(findTestObject('Page_Montale Dark Purple Eau de P
     WebUI.callTestCase(findTestCase('1. Common script/Create new account (US)'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-'Add the item to the "My Favorites" list'
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Montale Dark Purple Eau de Par/div_listSelector__checkboxUnch'), 
+    0)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Montale Dark Purple Eau de Par/div_listSelector__checkboxUnch'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Montale Dark Purple Eau de Par/div_listSelector__checkboxUnch'))
 
 'Wait for the Add to Favorites dialog to dismiss itself'

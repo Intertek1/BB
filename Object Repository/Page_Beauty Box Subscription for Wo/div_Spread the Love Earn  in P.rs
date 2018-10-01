@@ -4,6 +4,12 @@
    <name>div_Spread the Love Earn  in P</name>
    <tag></tag>
    <elementGuidId>2b8c61b4-9ad0-47fe-ab21-f505fd4d7684</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Spread the Love, Earn $ in Points' or . = 'Spread the Love, Earn $ in Points')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

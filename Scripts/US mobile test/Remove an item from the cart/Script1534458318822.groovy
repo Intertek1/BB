@@ -30,11 +30,11 @@ WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__search
 'Wait a few seconds before entering text or an "element not currently interactable" error may appear'
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_Beauty Box Subscription for Wo/input_searchForm__input___2s6r (2)'), 'remove')
+WebUI.setText(findTestObject('Page_Beauty Box Subscription for Wo/input_searchForm__input___2s6r (2)'), 'soap')
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/button_Search (2)'))
 
-WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/a_Tweezerman Smooth Finish Fac'))
+WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/a_Level Naturals Peppermint  P'))
 
 'Scroll to the bottom to display the Add To Cart button'
 WebUI.scrollToPosition(0, 999999)
@@ -81,7 +81,7 @@ WebUI.comment('Verify that an item can be removed by selecting the \'-\' button'
 WebUI.delay(15, FailureHandling.STOP_ON_FAILURE)
 
 'Select the \'-\' icon'
-WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__-_Tweezerman'))
+WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__-_Soap'))
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/a_Continue Shopping (1)'))
 

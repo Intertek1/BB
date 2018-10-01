@@ -3,6 +3,6 @@
    <description>The invite is displayed on the social media account</description>
    <name>Share a link on Facebook or Twitter</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Note: For this test case to work, the Facebook and Twitter apps must not be installed</comment>
    <testCaseGuid>f9715827-dabc-4bf7-b2b9-1aee57d61c7a</testCaseGuid>
 </TestCaseEntity>

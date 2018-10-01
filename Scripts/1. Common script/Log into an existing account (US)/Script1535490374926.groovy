@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 not_run: WebUI.setText(findTestObject('Page_Beauty Box Subscription for Wo/input_username'), 'birchbox.intertek+us08172018@gmail.com')
 
-WebUI.setText(findTestObject('Page_Beauty Box Subscription for Wo/input_username'), 'birchbox.intertek+us0911180947@gmail.com')
+WebUI.setText(findTestObject('Page_Beauty Box Subscription for Wo/input_username'), 'birchbox.intertek+us1001180157@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/input_password (8)'), 'yrXHdmw+Di/576oxJz3/0g==')
 

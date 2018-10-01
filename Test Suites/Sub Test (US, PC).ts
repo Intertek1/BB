@@ -4,7 +4,7 @@
    <name>Sub Test (US, PC)</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-18T10:50:56</lastRun>
+   <lastRun>2018-10-01T14:20:56</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>40</pageLoadTimeout>

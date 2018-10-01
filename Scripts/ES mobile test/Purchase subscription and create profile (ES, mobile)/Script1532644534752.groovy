@@ -38,10 +38,10 @@ WebUI.setViewPortSize(400, 900)
 'Enable this line only when running this test case by itself'
 WebUI.navigateToUrl('https://www.staging.birchbox.es/')
 
-WebUI.waitForElementVisible(findTestObject('Page_Descubre la caja de belleza co/div_cookieNotice__remove___2-T (2)'), 0)
+WebUI.waitForElementVisible(findTestObject('Page_Descubre la caja de belleza co/div_Poltica de Cookies_cookieN'), 0)
 
 'Dismiss the blue notification at the top'
-WebUI.click(findTestObject('Object Repository/Page_Descubre la caja de belleza co/div_cookieNotice__remove___2-T (2) (1)'))
+WebUI.click(findTestObject('Page_Descubre la caja de belleza co/div_Poltica de Cookies_cookieN'))
 
 'Tap the hamburger menu'
 WebUI.click(findTestObject('Object Repository/Page_Descubre la caja de belleza co/svg_icon__svg___hamburger_menu (1)'))

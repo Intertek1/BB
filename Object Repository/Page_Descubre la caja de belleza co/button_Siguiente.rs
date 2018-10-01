@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn&quot;]/div[@class=&quot;app__childrenContainerNarrow___2Gjv4&quot;]/div[@class=&quot;GutterDiv-uPqzs bOPyiR&quot;]/div[@class=&quot;utilities__relative___1GEg3&quot;]/div[2]/div[@class=&quot;form__container___31zeP utilities__relative___1GEg3&quot;]/div[@class=&quot;containers__formVerticalSpacingAdaptive___2TxXH containers__containerForm___2gXsg&quot;]/div[4]/button[@class=&quot;StyledButton-gXzblK hpxJeq&quot;]</value>
+         <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn&quot;]/div[@class=&quot;app__childrenContainerNarrow___2Gjv4&quot;]/div[@class=&quot;GutterDiv-uPqzs bOPyiR&quot;]/div[@class=&quot;utilities__relative___1GEg3&quot;]/div[2]/div[@class=&quot;form__container___31zeP utilities__relative___1GEg3&quot;]/div[@class=&quot;containers__formVerticalSpacingAdaptive___2TxXH containers__containerForm___2gXsg&quot;]/div[4]/button[@class=&quot;StyledButton-gXzblK gLayyg&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>StyledButton-gXzblK hpxJeq</value>
+      <value>StyledButton-gXzblK gLayyg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn&quot;]/div[@class=&quot;app__childrenContainerNarrow___2Gjv4&quot;]/div[@class=&quot;GutterDiv-uPqzs bOPyiR&quot;]/div[@class=&quot;utilities__relative___1GEg3&quot;]/div[2]/div[@class=&quot;form__container___31zeP utilities__relative___1GEg3&quot;]/div[@class=&quot;containers__formVerticalSpacingAdaptive___2TxXH containers__containerForm___2gXsg&quot;]/div[4]/button[@class=&quot;StyledButton-gXzblK hpxJeq&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn&quot;]/div[@class=&quot;app__childrenContainerNarrow___2Gjv4&quot;]/div[@class=&quot;GutterDiv-uPqzs bOPyiR&quot;]/div[@class=&quot;utilities__relative___1GEg3&quot;]/div[2]/div[@class=&quot;form__container___31zeP utilities__relative___1GEg3&quot;]/div[@class=&quot;containers__formVerticalSpacingAdaptive___2TxXH containers__containerForm___2gXsg&quot;]/div[4]/button[@class=&quot;StyledButton-gXzblK gLayyg&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,13 +63,13 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Política de Cookies'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

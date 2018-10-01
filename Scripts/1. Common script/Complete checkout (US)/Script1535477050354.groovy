@@ -59,6 +59,9 @@ WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/div_UPS Ground 7
 
 WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/button_Continue'), FailureHandling.OPTIONAL)
 
+'A delay of about 5 seconds is necessary, otherwise an error message says the next field is not editable'
+WebUI.delay(5)
+
 'If there is an "Add payment method" element present, then this information will be entered'
 if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Box Subscription for Wo/div_Add payment information'), 5, FailureHandling.OPTIONAL)) {
     WebUI.callTestCase(findTestCase('1. Common script/Enter payment information (US)'), [:], FailureHandling.STOP_ON_FAILURE)

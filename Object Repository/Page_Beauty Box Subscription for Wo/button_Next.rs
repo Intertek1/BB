@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn&quot;]/div[@class=&quot;app__childrenContainerWide___105uE&quot;]/div[@class=&quot;GutterDiv-uPqzs eAjzvm&quot;]/div[@class=&quot;utilities__relative___1GEg3&quot;]/div[2]/div[@class=&quot;form__container___31zeP utilities__relative___1GEg3&quot;]/div[@class=&quot;containers__formVerticalSpacingAdaptive___2TxXH containers__containerForm___2gXsg&quot;]/div[3]/button[@class=&quot;StyledButton-gXzblK BpeRl&quot;]</value>
+         <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn&quot;]/div[@class=&quot;app__childrenContainerWide___105uE&quot;]/div[@class=&quot;GutterDiv-uPqzs eAjzvm&quot;]/div[@class=&quot;utilities__relative___1GEg3&quot;]/div[2]/div[@class=&quot;form__container___31zeP utilities__relative___1GEg3&quot;]/div[@class=&quot;containers__formVerticalSpacingAdaptive___2TxXH containers__containerForm___2gXsg&quot;]/div[3]/button[@class=&quot;StyledButton-gXzblK byxxpd&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>StyledButton-gXzblK BpeRl</value>
+      <value>StyledButton-gXzblK byxxpd</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn&quot;]/div[@class=&quot;app__childrenContainerWide___105uE&quot;]/div[@class=&quot;GutterDiv-uPqzs eAjzvm&quot;]/div[@class=&quot;utilities__relative___1GEg3&quot;]/div[2]/div[@class=&quot;form__container___31zeP utilities__relative___1GEg3&quot;]/div[@class=&quot;containers__formVerticalSpacingAdaptive___2TxXH containers__containerForm___2gXsg&quot;]/div[3]/button[@class=&quot;StyledButton-gXzblK BpeRl&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn&quot;]/div[@class=&quot;app__childrenContainerWide___105uE&quot;]/div[@class=&quot;GutterDiv-uPqzs eAjzvm&quot;]/div[@class=&quot;utilities__relative___1GEg3&quot;]/div[2]/div[@class=&quot;form__container___31zeP utilities__relative___1GEg3&quot;]/div[@class=&quot;containers__formVerticalSpacingAdaptive___2TxXH containers__containerForm___2gXsg&quot;]/div[3]/button[@class=&quot;StyledButton-gXzblK byxxpd&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

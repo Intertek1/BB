@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+"Full Sanity Test (US, mobile)",,,2018-09-28 17:42:23,2018-09-28 17:42:31,8.314s,FAILED
+,,,,,,
+Test Cases/US mobile test/Remove an item from the cart,,,2018-09-28 17:42:23,2018-09-28 17:42:24,1.083s,FAILED
+callTestCase,,Enable this line only when running this test suite by itself,2018-09-28 17:42:24,2018-09-28 17:42:24,0.004s,NOT_RUN
+waitForElementClickable,,,2018-09-28 17:42:24,2018-09-28 17:42:24,0.571s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Collections),,All categories load and contain products,2018-09-28 17:42:24,2018-09-28 17:42:25,0.498s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-09-28 17:42:25,2018-09-28 17:42:25,0.001s,NOT_RUN
+click,,,2018-09-28 17:42:25,2018-09-28 17:42:25,0.018s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup),,,2018-09-28 17:42:25,2018-09-28 17:42:27,2.588s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-09-28 17:42:25,2018-09-28 17:42:25,0.001s,NOT_RUN
+delay,,,2018-09-28 17:42:25,2018-09-28 17:42:27,2.039s,PASSED
+waitForElementClickable,,,2018-09-28 17:42:27,2018-09-28 17:42:27,0.012s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Hair),,,2018-09-28 17:42:27,2018-09-28 17:42:30,2.336s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-09-28 17:42:28,2018-09-28 17:42:28,0.003s,NOT_RUN
+delay,,,2018-09-28 17:42:28,2018-09-28 17:42:30,2.007s,PASSED
+click,,,2018-09-28 17:42:30,2018-09-28 17:42:30,0.014s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin),,,2018-09-28 17:42:30,2018-09-28 17:42:31,1.274s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-09-28 17:42:30,2018-09-28 17:42:30,0.003s,NOT_RUN
+delay,,,2018-09-28 17:42:30,2018-09-28 17:42:31,1.005s,PASSED
+click,,,2018-09-28 17:42:31,2018-09-28 17:42:31,0.014s,FAILED

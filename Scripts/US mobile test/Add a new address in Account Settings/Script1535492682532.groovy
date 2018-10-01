@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Enable this line only when running this test case by itself'
-not_run: WebUI.callTestCase(findTestCase('US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)'), 
+WebUI.callTestCase(findTestCase('US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com)'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__profile (1)'), 0)
@@ -33,13 +33,15 @@ WebUI.delay(2)
 'If the user is not logged in'
 if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Box Subscription for Wo/div_Email Address (3)'), 5, FailureHandling.OPTIONAL)) {
     WebUI.callTestCase(findTestCase('1. Common script/Log into an existing account (US)'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__profile (1)'))
 }
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__profile (1)'))
-
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Page_Beauty Box Subscription for Wo/div_Account Settings (1)'), 0)
 
 WebUI.waitForElementClickable(findTestObject('Page_Beauty Box Subscription for Wo/div_Account Settings (1)'), 0)
 

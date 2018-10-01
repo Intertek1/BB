@@ -62,7 +62,8 @@ WebUI.delay(4)
 
 WebUI.scrollToPosition(0, 550)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Beauty Protector Protect  Deta/svg_icon__svg___cc1CR utilitie'), 5)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Protector Protect  Deta/svg_icon__svg___cc1CR utilitie'), 
+    5)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Protector Protect  Deta/svg_icon__svg___cc1CR utilitie'))
 

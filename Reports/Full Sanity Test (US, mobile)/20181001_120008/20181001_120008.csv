@@ -1,0 +1,101 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+"Full Sanity Test (US, mobile)",,,2018-10-01 12:00:11,2018-10-01 12:00:51,40.560s,FAILED
+,,,,,,
+Test Cases/US mobile test/Launch the Birchbox site in the required locale - US (www.staging.birchbox.com),,,2018-10-01 12:00:11,2018-10-01 12:00:23,11.748s,FAILED
+openBrowser,,Browser launches only once and will remain open throughout all the tests,2018-10-01 12:00:12,2018-10-01 12:00:23,11.214s,FAILED
+,,,,,,
+Test Cases/US mobile test/Purchase subscription and create profile,,,2018-10-01 12:00:23,2018-10-01 12:00:24,0.952s,FAILED
+Statement - date = new java.util.Date(),,Store the current date and time,2018-10-01 12:00:24,2018-10-01 12:00:24,0.006s,PASSED
+"Statement - datetimeMMddyyhhmm = date.format(""MMddyyhhmm"")",,Store the date and time in the format month/day/year/hour/minute,2018-10-01 12:00:24,2018-10-01 12:00:24,0.004s,PASSED
+"Statement - uniqueUSEmail = ""birchbox.intertek+us"" + datetimeMMddyyhhmm + ""@gmail.com""",,Create a unique email address using the formatted date and time,2018-10-01 12:00:24,2018-10-01 12:00:24,0.002s,PASSED
+callTestCase,,Enable this line only when running this test suite by itself,2018-10-01 12:00:24,2018-10-01 12:00:24,0.002s,NOT_RUN
+click,,Tap the hamburger menu,2018-10-01 12:00:24,2018-10-01 12:00:24,0.283s,FAILED
+,,,,,,
+Test Cases/US mobile test/Add a regular full sized item to your cart and place an order,,,2018-10-01 12:00:24,2018-10-01 12:00:24,0.339s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:24,2018-10-01 12:00:24,0.002s,NOT_RUN
+click,,Select the hamburger menu,2018-10-01 12:00:24,2018-10-01 12:00:24,0.006s,FAILED
+,,,,,,
+Test Cases/US mobile test/Add a configurable item and place an order,,,2018-10-01 12:00:24,2018-10-01 12:00:28,3.759s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:25,2018-10-01 12:00:25,0.001s,NOT_RUN
+delay,,,2018-10-01 12:00:25,2018-10-01 12:00:28,3.020s,PASSED
+waitForElementVisible,,Tap the hamburger menu,2018-10-01 12:00:28,2018-10-01 12:00:28,0.028s,FAILED
+,,,,,,
+Test Cases/US mobile test/Remove an item from the cart,,,2018-10-01 12:00:28,2018-10-01 12:00:28,0.263s,FAILED
+callTestCase,,Enable this line only when running this test suite by itself,2018-10-01 12:00:28,2018-10-01 12:00:28,0.002s,NOT_RUN
+waitForElementClickable,,,2018-10-01 12:00:28,2018-10-01 12:00:28,0.035s,FAILED
+,,,,,,
+Test Cases/US mobile test/Log in as a subscriber with existing boxes and navigate to Boxes,,"All boxes show in the gallery view with correct labels.  ""Review Samples"" should appear next to latest box if there are any samples left to review.",2018-10-01 12:00:28,2018-10-01 12:00:31,2.204s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:29,2018-10-01 12:00:29,0.001s,NOT_RUN
+delay,,,2018-10-01 12:00:29,2018-10-01 12:00:31,2.005s,PASSED
+click,,,2018-10-01 12:00:31,2018-10-01 12:00:31,0.019s,FAILED
+,,,,,,
+Test Cases/US mobile test/Search for a product from the menu and add a product to existing list from within the product page,,,2018-10-01 12:00:31,2018-10-01 12:00:33,2.252s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:31,2018-10-01 12:00:31,0.002s,NOT_RUN
+delay,,,2018-10-01 12:00:31,2018-10-01 12:00:33,2.003s,PASSED
+waitForElementClickable,,Tap the search icon,2018-10-01 12:00:33,2018-10-01 12:00:33,0.010s,FAILED
+,,,,,,
+Test Cases/US mobile test/Tap Men or Women tab,,,2018-10-01 12:00:33,2018-10-01 12:00:33,0.239s,FAILED
+Statement - date = new java.util.Date(),,Store the current date and time,2018-10-01 12:00:33,2018-10-01 12:00:33,0.009s,NOT_RUN
+"Statement - datetimeMMddyyhhmm = date.format(""MMddyyhhmm"")",,Store the date and time in the format month/day/year/hour/minute,2018-10-01 12:00:33,2018-10-01 12:00:33,0.001s,NOT_RUN
+"Statement - uniqueUSEmail = ""birchbox.intertek+us"" + datetimeMMddyyhhmm + ""@gmail.com""",,Create a unique email address using the formatted date and time,2018-10-01 12:00:33,2018-10-01 12:00:33,0.001s,NOT_RUN
+openBrowser,,Enable this line only when running this test case by itself,2018-10-01 12:00:33,2018-10-01 12:00:33,0.009s,NOT_RUN
+setViewPortSize,,Enable this line only when running this test case by itself on a PC,2018-10-01 12:00:33,2018-10-01 12:00:33,0.002s,NOT_RUN
+navigateToUrl,,,2018-10-01 12:00:33,2018-10-01 12:00:33,0.012s,FAILED
+,,,,,,
+Test Cases/US mobile test/Tap the heart icon for a product and uncheck the item from a list,,Item is removed from list and heart icon is unfilled,2018-10-01 12:00:33,2018-10-01 12:00:35,2.209s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:33,2018-10-01 12:00:33,0.001s,NOT_RUN
+delay,,,2018-10-01 12:00:33,2018-10-01 12:00:35,2.002s,PASSED
+click,,,2018-10-01 12:00:35,2018-10-01 12:00:35,0.009s,FAILED
+,,,,,,
+Test Cases/US mobile test/Navigate to any list and add a product to cart,,"Cart count updates and when cart is opened, product shows to be added",2018-10-01 12:00:35,2018-10-01 12:00:36,0.280s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:36,2018-10-01 12:00:36,0.003s,NOT_RUN
+callTestCase,,,2018-10-01 12:00:36,2018-10-01 12:00:36,0.003s,NOT_RUN
+waitForElementClickable,,,2018-10-01 12:00:36,2018-10-01 12:00:36,0.005s,FAILED
+,,,,,,
+"Test Cases/US mobile test/Account dashboard correctly reflects points, subscriber status, number of boxes",,"All boxes show in the gallery view with correct labels. ""Review Samples"" should appear next to latest box if there are any samples left to review.",2018-10-01 12:00:36,2018-10-01 12:00:36,0.256s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:36,2018-10-01 12:00:36,0.001s,NOT_RUN
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:36,2018-10-01 12:00:36,0.001s,NOT_RUN
+waitForElementClickable,,,2018-10-01 12:00:36,2018-10-01 12:00:36,0.007s,FAILED
+,,,,,,
+Test Cases/US mobile test/Send a link via email using the Invite Friends menu,,,2018-10-01 12:00:36,2018-10-01 12:00:41,5.235s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:36,2018-10-01 12:00:36,0.001s,NOT_RUN
+delay,,,2018-10-01 12:00:36,2018-10-01 12:00:36,0.000s,NOT_RUN
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:36,2018-10-01 12:00:36,0.001s,NOT_RUN
+delay,,,2018-10-01 12:00:36,2018-10-01 12:00:41,5.002s,PASSED
+waitForElementClickable,,,2018-10-01 12:00:41,2018-10-01 12:00:41,0.009s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all the menu pages,,All screens load correctly and nav updates,2018-10-01 12:00:41,2018-10-01 12:00:42,0.455s,FAILED
+callTestCase,,Enable this line only when running this test suite by itself,2018-10-01 12:00:42,2018-10-01 12:00:42,0.001s,NOT_RUN
+click,,,2018-10-01 12:00:42,2018-10-01 12:00:42,0.006s,FAILED
+,,,,,,
+Test Cases/US mobile test/Write a review for a product in the Shop,,,2018-10-01 12:00:42,2018-10-01 12:00:44,2.260s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:42,2018-10-01 12:00:42,0.002s,NOT_RUN
+delay,,,2018-10-01 12:00:42,2018-10-01 12:00:44,2.001s,PASSED
+click,,,2018-10-01 12:00:44,2018-10-01 12:00:44,0.009s,FAILED
+,,,,,,
+Test Cases/US mobile test/Add a new credit card in Account Settings,,,2018-10-01 12:00:44,2018-10-01 12:00:44,0.266s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:44,2018-10-01 12:00:44,0.002s,NOT_RUN
+waitForElementClickable,,,2018-10-01 12:00:44,2018-10-01 12:00:44,0.028s,FAILED
+,,,,,,
+Test Cases/US mobile test/Add a new address in Account Settings,,,2018-10-01 12:00:44,2018-10-01 12:00:45,0.550s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:45,2018-10-01 12:00:45,0.001s,NOT_RUN
+waitForElementClickable,,,2018-10-01 12:00:45,2018-10-01 12:00:45,0.011s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Collections),,All categories load and contain products,2018-10-01 12:00:45,2018-10-01 12:00:45,0.297s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:45,2018-10-01 12:00:45,0.002s,NOT_RUN
+click,,,2018-10-01 12:00:45,2018-10-01 12:00:45,0.012s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Makeup),,,2018-10-01 12:00:45,2018-10-01 12:00:48,2.374s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:46,2018-10-01 12:00:46,0.001s,NOT_RUN
+delay,,,2018-10-01 12:00:46,2018-10-01 12:00:48,2.001s,PASSED
+waitForElementClickable,,,2018-10-01 12:00:48,2018-10-01 12:00:48,0.027s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womens Shop (Hair),,,2018-10-01 12:00:48,2018-10-01 12:00:50,2.488s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:48,2018-10-01 12:00:48,0.001s,NOT_RUN
+delay,,,2018-10-01 12:00:48,2018-10-01 12:00:50,2.002s,PASSED
+click,,,2018-10-01 12:00:50,2018-10-01 12:00:50,0.025s,FAILED
+,,,,,,
+Test Cases/US mobile test/Test all Shop top-level categories for Womes Shop (Skin),,,2018-10-01 12:00:50,2018-10-01 12:00:51,1.255s,FAILED
+callTestCase,,Enable this line only when running this test case by itself,2018-10-01 12:00:50,2018-10-01 12:00:50,0.002s,NOT_RUN
+delay,,,2018-10-01 12:00:50,2018-10-01 12:00:51,1.000s,PASSED
+click,,,2018-10-01 12:00:51,2018-10-01 12:00:51,0.004s,FAILED

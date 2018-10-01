@@ -4,10 +4,16 @@
    <name>a_Continue Shopping (1)</name>
    <tag></tag>
    <elementGuidId>52d65e1e-12a8-43f6-abb4-5e3574b8be89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Continue Shopping' or . = 'Continue Shopping')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,7 +27,7 @@
       <value>button__default___1Nv1u button__button___2CSMu utilities__flexCenterBoth___bT52v utilities__flexContainer___2sCJV utilities__fullWidth___3kUCi utilities__uppercase___3lD3P utilities__bold___3ltf7 utilities__pointer___1ctfY utilities__centered___10zw_ layout__heightControlAdaptive___3k245 typography__copy13___2sIAt StyledLink-khUpca ddtewq</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

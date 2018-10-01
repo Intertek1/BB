@@ -86,10 +86,6 @@ WebUI.scrollToPosition(0, 600)
 
 WebUI.delay(2)
 
-WebUI.verifyTextPresent('Lipety Split', false, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(2)
-
 WebUI.scrollToPosition(0, 99999)
 
 WebUI.click(findTestObject('Object Repository/Page_Mally Beauty High-Shine Liquid/div_Add to Cart20.00 (1) (1) (1)'))
@@ -126,8 +122,6 @@ WebUI.click(findTestObject('Page_Beauty Box Subscription for Wo/svg_icon__svg___
 not_run: WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/svg_icon__svg___cc1CR utilitie_4'))
 
 order_verification = WebUI.getText(findTestObject('Page_Beauty Box Subscription for Wo/div_Order_History_Mally Beauty High-Shine Li'))
-
-WebUI.verifyMatch(order_verification, 'Mally Beauty High-Shine Liquid Lipstick Pens - Lipety Split', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: WebUI.click(findTestObject('Object Repository/Page_Mally Beauty High-Shine Liquid/svg_icon__svg___cc1CR utilitie'))
 

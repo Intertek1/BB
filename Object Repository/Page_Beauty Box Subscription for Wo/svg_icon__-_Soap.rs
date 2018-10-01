@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svg_icon__-_Tweezerman</name>
+   <name>svg_icon__-_Soap</name>
    <tag></tag>
    <elementGuidId>39021312-3407-4390-ae69-408d735f33f9</elementGuidId>
    <selectorCollection>

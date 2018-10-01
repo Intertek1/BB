@@ -36,6 +36,8 @@ if (WebUI.verifyElementPresent(findTestObject('Page_Beauty Box Subscription for 
 
 WebUI.delay(2)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_My Birchbox'), 0)
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_My Birchbox'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_My Birchbox'))

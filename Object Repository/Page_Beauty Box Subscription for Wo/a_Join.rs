@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;Drawer__OuterDiv-fQULRK utilities__cover___WKDvY jxeJTN&quot;]/div[@class=&quot;Drawer__InnerDiv-QSCgb jfPdeQ&quot;]/div[@class=&quot;DrawerDiv-ihhGLG ZybrZ&quot;]/div[@class=&quot;TransitionContainer__NarrowScrollDiv-dvmQNx hDoneZ&quot;]/div[1]/div[1]/div[@class=&quot;NavDrawer__PrimaryNavDiv-eqSCkY fHeSne&quot;]/a[@class=&quot;NavButtonLink-domlco dIUJER StyledButton-gXzblK bfJKoO&quot;]</value>
+         <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;Drawer__OuterDiv-fQULRK utilities__cover___WKDvY jxeJTN&quot;]/div[@class=&quot;Drawer__InnerDiv-QSCgb jfPdeQ&quot;]/div[@class=&quot;DrawerDiv-ihhGLG ZybrZ&quot;]/div[@class=&quot;TransitionContainer__NarrowScrollDiv-dvmQNx hDoneZ&quot;]/div[1]/div[1]/div[@class=&quot;NavDrawer__PrimaryNavDiv-eqSCkY fHeSne&quot;]/a[@class=&quot;NavButtonLink-domlco dIUJER StyledButton-gXzblK cprrLQ&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>NavButtonLink-domlco dIUJER StyledButton-gXzblK bfJKoO</value>
+      <value>NavButtonLink-domlco dIUJER StyledButton-gXzblK cprrLQ</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,16 +49,64 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>matches regex</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>(?i)(join|subscribe)</value>
+      <value>(?i)(^Join$|^Subscribe$)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;Drawer__OuterDiv-fQULRK utilities__cover___WKDvY jxeJTN&quot;]/div[@class=&quot;Drawer__InnerDiv-QSCgb jfPdeQ&quot;]/div[@class=&quot;DrawerDiv-ihhGLG ZybrZ&quot;]/div[@class=&quot;TransitionContainer__NarrowScrollDiv-dvmQNx hDoneZ&quot;]/div[1]/div[1]/div[@class=&quot;NavDrawer__PrimaryNavDiv-eqSCkY fHeSne&quot;]/a[@class=&quot;NavButtonLink-domlco dIUJER StyledButton-gXzblK bfJKoO&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app__container___1iszn undefined&quot;]/div[@class=&quot;Drawer__OuterDiv-fQULRK utilities__cover___WKDvY jxeJTN&quot;]/div[@class=&quot;Drawer__InnerDiv-QSCgb jfPdeQ&quot;]/div[@class=&quot;DrawerDiv-ihhGLG ZybrZ&quot;]/div[@class=&quot;TransitionContainer__NarrowScrollDiv-dvmQNx hDoneZ&quot;]/div[1]/div[1]/div[@class=&quot;NavDrawer__PrimaryNavDiv-eqSCkY fHeSne&quot;]/a[@class=&quot;NavButtonLink-domlco dIUJER StyledButton-gXzblK cprrLQ&quot;]</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='root']/div/div[5]/div/div[2]/div[2]/div/div/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <value>//a[contains(text(),'Join')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2018 Birchbox'])[1]/following::a[10]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Made in NYC'])[1]/following::a[10]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Makeup'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>(//a[contains(@href, '/subscribe/women')])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[2]/div[2]/div/div/div/a</value>
+   </webElementXpaths>
 </WebElementEntity>

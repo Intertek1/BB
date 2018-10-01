@@ -4,7 +4,7 @@
    <name>Full Sanity Test (US, mobile)</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-26T10:33:36</lastRun>
+   <lastRun>2018-10-01T12:04:29</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>120</pageLoadTimeout>
@@ -80,7 +80,7 @@
    <testCaseLink>
       <guid>dd29684c-fd36-4d7a-9603-c7eb1ed1522f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/US mobile test/Share a link on Facebook or Twitter</testCaseId>
    </testCaseLink>
    <testCaseLink>

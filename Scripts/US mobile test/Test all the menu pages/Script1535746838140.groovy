@@ -39,6 +39,8 @@ WebUI.verifyTextPresent('Best-Sellers', false, FailureHandling.CONTINUE_ON_FAILU
 
 WebUI.verifyTextPresent('Gifts with Purchase', false, FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Main (2)'), 0)
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Main (2)'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Main (2)'))
@@ -74,6 +76,10 @@ WebUI.verifyTextPresent('Treat', false, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyTextPresent('Style', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyTextPresent('Extend', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Main (2)'), 0)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Beauty Box Subscription for Wo/div_Main (2)'), 0)
 
